@@ -1,0 +1,19 @@
+AREA     appcode, CODE, READONLY
+     EXPORT __main
+	 ENTRY 
+__main  FUNCTION		 		
+           MOV R0,#0;Initial number 0 
+    MOV R1,#1;Initial number 1 
+    MOV R3,#100;Upto What Number you want the series(req) 
+    MOV R4,#0;every element in series will be stored in r4 
+    ADD R4,R0,R1;val = t0+t1 
+loop1 CMP R4,R3;if(val > req) 
+    BLE LOOP;if less goto loop 
+    B halt;Else goto end  
+LOOP MOV R0,R1;t1=t0; 
+     MOV R1,R4;t0=val 
+     ADD R4,R0,R1;val = t0 + t1 
+     B loop1;Loop until val >= req 
+halt    B halt
+     ENDFUNC
+     END
