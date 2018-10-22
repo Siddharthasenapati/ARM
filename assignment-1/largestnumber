@@ -1,0 +1,17 @@
+AREA     appcode, CODE, READONLY
+     EXPORT __main
+	 ENTRY 
+__main  FUNCTION		 		
+         MOV R0, #4      ; R0 is a
+         MOV R1, #2      ; R1 is b
+		 MOV R2, #6      ; R2 is c
+         CMP R0, R1
+		 IT HI
+         MOVHI R1,R0
+		 CMP R1,R2
+		 IT HI
+		 MOVHI R2,R1
+		 MOV R3,R2
+halt    B halt
+     ENDFUNC
+     END
