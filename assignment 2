@@ -1,0 +1,21 @@
+IT is the if-then instruction ,its purpose is to check condition after IT specified and execute the instructions following it based upon the condition.
+
+ITTE instruction ,It is the ARM's IF-THEN-ELSE instruction, which was introduced in the Thumb-2 instruction set.
+
+This instruction is used for handling small sequences of conditional code, up to 4 instructions.And also these four instructions must have specified its conditional part of thier syntax,Making them conditional instructions.These conditions can be logically same or inverse. 
+
+In the erroneous code :
+
+ITTTE LT
+MOV R3
+
+We can see here the instruction here following IT is not conditional compared to 
+
+ITTTE LT
+ADDLT
+MOVLT
+MOVLT
+SUBGE
+where all the instructions after IT are conditional in execution.
+
+This is the reason we got errors in above mentioned code
