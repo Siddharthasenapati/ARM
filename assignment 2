@@ -2,7 +2,9 @@ IT is the if-then instruction ,its purpose is to check condition after IT specif
 
 ITTE instruction ,It is the ARM's IF-THEN-ELSE instruction, which was introduced in the Thumb-2 instruction set.
 
-This instruction is used for handling small sequences of conditional code, up to 4 instructions.And also these four instructions must have specified its conditional part of thier syntax,Making them conditional instructions.These conditions can be logically same or inverse. 
+This instruction is used for handling small sequences of conditional code, up to 4 instructions.
+And also these four instructions must have specified its conditional part of there syntax,
+Making them conditional instructions.These conditions can be logically same or inverse. 
 
 In the erroneous code :
 
