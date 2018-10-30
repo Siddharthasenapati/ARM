@@ -23,7 +23,7 @@ LOOP
 	ADD r2,r2,#1
 	VMOV.F32 s6,r2
 	VMUL.F32 s3,s3,s6	
-	CMP r1,r2	;Loop runs 10 times i.e. e^x value is calculated until 10 terms i.e. 1 +x +x^2/2! +x^3/3! +x^4/4! +x^5/5! +x^6/6! +x^7/7! +x^8/8! +x^9/9!
+	CMP r1,r2	
 	BNE LOOP	
 	
 stop B stop ; stop program
