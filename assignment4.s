@@ -1,31 +1,28 @@
-  PRESERVE8 
-	 THUMB
-	 AREA     appcode, CODE, READONLY
+     PRESERVE8
+     THUMB
+     AREA     appcode, CODE, READONLY
      EXPORT __main
 	 ENTRY 
 __main  FUNCTION
-				;e^x = 1 + x + x^2/2! + x^3/3! + .......
-	
-	VLDR.F32 s0,=8	;s0 gives the values of the exponent in e^x, i.e. x value
-	VLDR.F32 s1,=1	;s1 stores the value of the whole expansion until a certain no. of terms
-	VLDR.F32 s2,=1	;s2 stores the numerator of each term
-	VLDR.F32 s3,=1	;s3 stores the denominator of each term
-	VLDR.F32 s4,=0	;s4 stores the fraction value of each term 
-	
-	MOV r1,#4		;r1 gives the no. of terms in series that are to be considered
-	MOV r2,#0	;r2 used to run the loop required no. of times
-	
-LOOP 
 
-	VMUL.F32 s2,s2,s0	
-	VDIV.F32 s4,s2,s3	
-	VADD.F32 s1,s1,s4	
-	ADD r2,r2,#1
-	VMOV.F32 s6,r2
-	VMUL.F32 s3,s3,s6	
-	CMP r1,r2	
-	BNE LOOP	
-	
+	VMOV.F32 S1, #6;x-Number to find e^x
+	MOV R1, #10;Number of terms been considered in e^x expansion
+	MOV R4, #1;
+	VMOV.F32 S3, #1;temp
+	VMOV.F32 S4, #1; value of i in loop
+	VMOV.F32 S5, #1; to store the result
+	VMOV.F32 S7, #1;
+	MOV R8, #1;
+Loop 
+	 CMP R1, R4;Comparison done for excuting taylor series expansion of e^x for s2 number of terms
+	 BLT stop; Condition to check to enter inside loop
+	 VDIV.F32 S6, S1, S4; temp1=x/count
+	 VMUL.F32 S3, S3, S6; temp=temp*temp1;
+	 VADD.F32 S5, S5, S3; result=result+temp;
+	 VADD.F32 S4, S4, S7;
+	 ADD R4, R4, R8; incrementing count
+	 B Loop; 
+	 
 stop B stop ; stop program
-     ENDFUNC
-     END
+	 ENDFUNC
+	 END
