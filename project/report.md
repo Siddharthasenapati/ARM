@@ -9,4 +9,7 @@ _Software programming:_
 _Purpose:_  
      --Toggle the 8-bit LEDs at a given frequency  
      --Analyze the behavior of the AHB bus using an on-chip hardware debugging tool.  
+_AHBlite Bus Structure_  
+
+     
      
