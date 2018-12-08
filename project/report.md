@@ -20,7 +20,7 @@ _Pre Optimization Layout:_
 We have used Cadence Innovus to generate the layout  
 ![layout_wo-opt](https://user-images.githubusercontent.com/38091478/49683033-617efd80-fae4-11e8-9c6b-4d767e081de6.png)  
 _Post Optimization Layout:_  
-
+![optimizaed layout](https://user-images.githubusercontent.com/38091478/49683047-aacf4d00-fae4-11e8-91a3-940c721263fe.png)  
 
 
 
