@@ -18,6 +18,9 @@ We have Used BASYS 3 FPGA board for our project.Xilinx Vivado 2017.4 tool for sy
 ![vivado logic analyzer output](https://user-images.githubusercontent.com/38091478/49682982-9d659300-fae3-11e8-8f6b-2ee8794c7e81.JPG)  
 _Pre Optimization Layout:_  
 We have used Cadence Innovus to generate the layout  
+![layout_wo-opt](https://user-images.githubusercontent.com/38091478/49683033-617efd80-fae4-11e8-9c6b-4d767e081de6.png)  
+_Post Optimization Layout:_  
+
 
 
 
