@@ -12,6 +12,9 @@ _Purpose:_
 _AHBlite Bus Structure_  
 ![ahb lite bus structure](https://user-images.githubusercontent.com/38091478/49682861-71491280-fae1-11e8-9544-869fef0752be.JPG)  
 _List of Files Used:_  
+![files used](https://user-images.githubusercontent.com/38091478/49682963-55df0700-fae3-11e8-9d70-5de17e26e6f7.JPG)  
+_FPGA Output:_  
+
 
 
      
