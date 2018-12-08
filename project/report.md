@@ -1,3 +1,5 @@
-__Design of SoC using Cortex M0__  
-_Hardware implementation:_  
-![after_optimization](https://user-images.githubusercontent.com/38091478/49682703-0dbde580-fadf-11e8-8f83-2a5dd0e6b256.png)
+__Design of SoC using Cortex M0__   
+In this project, we build a basic SoC platform. Work includes:
+_Hardware implementation:_    
+      --Implement the hardware framework that has been written in Verilog.
+      --Prototype the SoC framework onto an FPGA.
