@@ -21,7 +21,23 @@ We have used Cadence Innovus to generate the layout
 ![layout_wo-opt](https://user-images.githubusercontent.com/38091478/49683033-617efd80-fae4-11e8-9c6b-4d767e081de6.png)  
 _Post Optimization Layout:_  
 ![optimizaed layout](https://user-images.githubusercontent.com/38091478/49683047-aacf4d00-fae4-11e8-91a3-940c721263fe.png)  
-_Power Report Before Optimization:_  
+_Power Report:_  
+![power_report](https://user-images.githubusercontent.com/38091478/49707864-336bfb80-fc53-11e8-9264-3b8a2c1c36ec.png)  
+_Synthesis Report Generated From Vivado:_  
+![rout report](https://user-images.githubusercontent.com/38091478/49707954-978ebf80-fc53-11e8-923f-423c700f19be.JPG)  
+
+![post implementaion](https://user-images.githubusercontent.com/38091478/49707974-aecdad00-fc53-11e8-880a-3bbad93a9389.JPG)  
+
+![post_synthesis](https://user-images.githubusercontent.com/38091478/49707976-af664380-fc53-11e8-8516-c37e7d953b04.JPG)  
+
+![setup](https://user-images.githubusercontent.com/38091478/49708024-dc1a5b00-fc53-11e8-89d3-d712b8a529ea.JPG)  
+
+![hold](https://user-images.githubusercontent.com/38091478/49708022-dae92e00-fc53-11e8-8c97-5926bf5a4ee6.JPG)  
+
+![pulse width](https://user-images.githubusercontent.com/38091478/49708023-db81c480-fc53-11e8-83c7-6817e5791b86.JPG)  
+
+![onchip power](https://user-images.githubusercontent.com/38091478/49708078-197ee880-fc54-11e8-8a9c-9801aa9982cf.JPG)  
+
 
 
 
