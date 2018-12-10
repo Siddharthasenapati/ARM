@@ -1,0 +1,483 @@
+#setNanoRouteMode -routeConcurrentMinimizeViaCountEffort "high"
+#setNanoRouteMode -routeReserveSpaceForMultiCut true
+#setNanoRouteMode -routeWithSiDriven false
+#setNanoRouteMode -routeWithTimingDriven false
+#Start globalDetailRoute on Tue Dec  4 16:37:46 2018
+#
+#WARNING (NRIG-39) NanoRoute cannot route to pin PIN/CLK of net CLK because it might be a logical pin and does not have physical shapes. To fix the problem, check the pin connection in the netlist and ensure the pin shapes exist in the floorplan.
+#WARNING (NRIG-39) NanoRoute cannot route to pin PIN/RESET of net RESET because it might be a logical pin and does not have physical shapes. To fix the problem, check the pin connection in the netlist and ensure the pin shapes exist in the floorplan.
+#WARNING (NRIG-39) NanoRoute cannot route to pin PIN/TDI of net TDI because it might be a logical pin and does not have physical shapes. To fix the problem, check the pin connection in the netlist and ensure the pin shapes exist in the floorplan.
+#WARNING (NRIG-39) NanoRoute cannot route to pin PIN/TCK of net TCK because it might be a logical pin and does not have physical shapes. To fix the problem, check the pin connection in the netlist and ensure the pin shapes exist in the floorplan.
+#WARNING (NRIG-39) NanoRoute cannot route to pin PIN/LED[7] of net LED[7] because it might be a logical pin and does not have physical shapes. To fix the problem, check the pin connection in the netlist and ensure the pin shapes exist in the floorplan.
+#WARNING (NRIG-39) NanoRoute cannot route to pin PIN/LED[6] of net LED[6] because it might be a logical pin and does not have physical shapes. To fix the problem, check the pin connection in the netlist and ensure the pin shapes exist in the floorplan.
+#WARNING (NRIG-39) NanoRoute cannot route to pin PIN/LED[5] of net LED[5] because it might be a logical pin and does not have physical shapes. To fix the problem, check the pin connection in the netlist and ensure the pin shapes exist in the floorplan.
+#WARNING (NRIG-39) NanoRoute cannot route to pin PIN/LED[4] of net LED[4] because it might be a logical pin and does not have physical shapes. To fix the problem, check the pin connection in the netlist and ensure the pin shapes exist in the floorplan.
+#WARNING (NRIG-39) NanoRoute cannot route to pin PIN/LED[3] of net LED[3] because it might be a logical pin and does not have physical shapes. To fix the problem, check the pin connection in the netlist and ensure the pin shapes exist in the floorplan.
+#WARNING (NRIG-39) NanoRoute cannot route to pin PIN/LED[2] of net LED[2] because it might be a logical pin and does not have physical shapes. To fix the problem, check the pin connection in the netlist and ensure the pin shapes exist in the floorplan.
+#WARNING (NRIG-39) NanoRoute cannot route to pin PIN/LED[1] of net LED[1] because it might be a logical pin and does not have physical shapes. To fix the problem, check the pin connection in the netlist and ensure the pin shapes exist in the floorplan.
+#WARNING (NRIG-39) NanoRoute cannot route to pin PIN/LED[0] of net LED[0] because it might be a logical pin and does not have physical shapes. To fix the problem, check the pin connection in the netlist and ensure the pin shapes exist in the floorplan.
+#WARNING (NRIG-39) NanoRoute cannot route to pin PIN/TDO of net TDO because it might be a logical pin and does not have physical shapes. To fix the problem, check the pin connection in the netlist and ensure the pin shapes exist in the floorplan.
+#WARNING (NRIG-39) NanoRoute cannot route to pin PIN/TMS of net TMS because it might be a logical pin and does not have physical shapes. To fix the problem, check the pin connection in the netlist and ensure the pin shapes exist in the floorplan.
+#WARNING (NRDB-2005) SPECIAL_NET VSS has special wires but no definitions for instance pins or top level pins. This will cause routability problems later.
+#WARNING (NRDB-2005) SPECIAL_NET VSS has special wires but no definitions for instance pins or top level pins. This will cause routability problems later.
+#NanoRoute Version 17.12-s095_1 NR171102-1913/17_12-UB
+#Using multithreading with 4 threads.
+#Start routing data preparation on Tue Dec  4 16:37:47 2018
+#
+#Minimum voltage of a net in the design = 0.000.
+#Maximum voltage of a net in the design = 1.100.
+#Voltage range [0.000 - 0.000] has 33 nets.
+#Voltage range [0.900 - 1.100] has 32 nets.
+#Voltage range [0.000 - 1.100] has 259057 nets.
+# Metal1       H   Track-Pitch = 0.1900    Line-2-Via Pitch = 0.1300
+# Metal2       V   Track-Pitch = 0.2000    Line-2-Via Pitch = 0.1500
+# Metal3       H   Track-Pitch = 0.1900    Line-2-Via Pitch = 0.1500
+# Metal4       V   Track-Pitch = 0.2000    Line-2-Via Pitch = 0.1500
+# Metal5       H   Track-Pitch = 0.1900    Line-2-Via Pitch = 0.1500
+# Metal6       V   Track-Pitch = 0.2000    Line-2-Via Pitch = 0.1500
+# Metal7       H   Track-Pitch = 0.1900    Line-2-Via Pitch = 0.1500
+# Metal8       V   Track-Pitch = 0.2000    Line-2-Via Pitch = 0.1500
+# Metal9       H   Track-Pitch = 0.1900    Line-2-Via Pitch = 0.1500
+# Metal10      V   Track-Pitch = 0.5000    Line-2-Via Pitch = 0.4200
+# Metal11      H   Track-Pitch = 0.4750    Line-2-Via Pitch = 0.4300
+#Regenerating Ggrids automatically.
+#Auto generating G-grids with size=15 tracks, using layer Metal3's pitch = 0.1900.
+#Using automatically generated G-grids.
+#Done routing data preparation.
+#cpu time = 00:00:02, elapsed time = 00:00:02, memory = 2017.49 (MB), peak = 3122.12 (MB)
+#Merging special wires using 4 threads...
+#
+#Finished routing data preparation on Tue Dec  4 16:37:49 2018
+#
+#Cpu time = 00:00:03
+#Elapsed time = 00:00:02
+#Increased memory = 8.95 (MB)
+#Total memory = 2017.76 (MB)
+#Peak memory = 3122.12 (MB)
+#
+#
+#Start global routing on Tue Dec  4 16:37:49 2018
+#
+#WARNING (NRGR-22) Design is already detail routed.
+#Routing data preparation, pin analysis, global routing and track assignment statistics:
+#Cpu time = 00:00:03
+#Elapsed time = 00:00:03
+#Increased memory = 9.08 (MB)
+#Total memory = 2017.89 (MB)
+#Peak memory = 3122.12 (MB)
+#Using multithreading with 4 threads.
+#
+#Start Detail Routing..
+#start 1st optimization iteration ...
+#   number of violations = 0
+#cpu time = 00:00:01, elapsed time = 00:00:00, memory = 2029.57 (MB), peak = 3122.12 (MB)
+#Complete Detail Routing.
+#Total wire length = 254400 um.
+#Total half perimeter of net bounding box = 221921 um.
+#Total wire length on LAYER Metal1 = 5465 um.
+#Total wire length on LAYER Metal2 = 63651 um.
+#Total wire length on LAYER Metal3 = 82509 um.
+#Total wire length on LAYER Metal4 = 57508 um.
+#Total wire length on LAYER Metal5 = 36225 um.
+#Total wire length on LAYER Metal6 = 8593 um.
+#Total wire length on LAYER Metal7 = 449 um.
+#Total wire length on LAYER Metal8 = 0 um.
+#Total wire length on LAYER Metal9 = 0 um.
+#Total wire length on LAYER Metal10 = 0 um.
+#Total wire length on LAYER Metal11 = 0 um.
+#Total number of vias = 94669
+#Up-Via Summary (total 94669):
+#           
+#-----------------------
+# Metal1          46527
+# Metal2          34748
+# Metal3           9685
+# Metal4           3076
+# Metal5            603
+# Metal6             30
+#-----------------------
+#                 94669 
+#
+#Total number of DRC violations = 0
+#Cpu time = 00:00:02
+#Elapsed time = 00:00:01
+#Increased memory = 4.69 (MB)
+#Total memory = 2022.58 (MB)
+#Peak memory = 3122.12 (MB)
+#
+#start routing for process antenna violation fix ...
+#cpu time = 00:00:01, elapsed time = 00:00:01, memory = 2025.25 (MB), peak = 3122.12 (MB)
+#
+#Total wire length = 254400 um.
+#Total half perimeter of net bounding box = 221921 um.
+#Total wire length on LAYER Metal1 = 5465 um.
+#Total wire length on LAYER Metal2 = 63651 um.
+#Total wire length on LAYER Metal3 = 82509 um.
+#Total wire length on LAYER Metal4 = 57508 um.
+#Total wire length on LAYER Metal5 = 36225 um.
+#Total wire length on LAYER Metal6 = 8593 um.
+#Total wire length on LAYER Metal7 = 449 um.
+#Total wire length on LAYER Metal8 = 0 um.
+#Total wire length on LAYER Metal9 = 0 um.
+#Total wire length on LAYER Metal10 = 0 um.
+#Total wire length on LAYER Metal11 = 0 um.
+#Total number of vias = 94669
+#Up-Via Summary (total 94669):
+#           
+#-----------------------
+# Metal1          46527
+# Metal2          34748
+# Metal3           9685
+# Metal4           3076
+# Metal5            603
+# Metal6             30
+#-----------------------
+#                 94669 
+#
+#Total number of DRC violations = 0
+#Total number of net violated process antenna rule = 0
+#
+#
+#Total wire length = 254400 um.
+#Total half perimeter of net bounding box = 221921 um.
+#Total wire length on LAYER Metal1 = 5465 um.
+#Total wire length on LAYER Metal2 = 63651 um.
+#Total wire length on LAYER Metal3 = 82509 um.
+#Total wire length on LAYER Metal4 = 57508 um.
+#Total wire length on LAYER Metal5 = 36225 um.
+#Total wire length on LAYER Metal6 = 8593 um.
+#Total wire length on LAYER Metal7 = 449 um.
+#Total wire length on LAYER Metal8 = 0 um.
+#Total wire length on LAYER Metal9 = 0 um.
+#Total wire length on LAYER Metal10 = 0 um.
+#Total wire length on LAYER Metal11 = 0 um.
+#Total number of vias = 94669
+#Up-Via Summary (total 94669):
+#           
+#-----------------------
+# Metal1          46527
+# Metal2          34748
+# Metal3           9685
+# Metal4           3076
+# Metal5            603
+# Metal6             30
+#-----------------------
+#                 94669 
+#
+#Total number of DRC violations = 0
+#Total number of net violated process antenna rule = 0
+#
+#
+#Start Post Route wire spreading..
+#
+#Start DRC checking..
+#   number of violations = 0
+#cpu time = 00:00:12, elapsed time = 00:00:03, memory = 2282.54 (MB), peak = 3122.12 (MB)
+#CELL_VIEW AHBLITE_SYS,init has no DRC violation.
+#Total number of DRC violations = 0
+#Total number of net violated process antenna rule = 0
+#
+#Start data preparation for wire spreading...
+#
+#Data preparation is done on Tue Dec  4 16:37:58 2018
+#
+#
+#Start Post Route Wire Spread.
+#Done with 429 horizontal wires in 8 hboxes and 639 vertical wires in 8 hboxes.
+#Complete Post Route Wire Spread.
+#
+#Total wire length = 254705 um.
+#Total half perimeter of net bounding box = 221921 um.
+#Total wire length on LAYER Metal1 = 5467 um.
+#Total wire length on LAYER Metal2 = 63679 um.
+#Total wire length on LAYER Metal3 = 82605 um.
+#Total wire length on LAYER Metal4 = 57648 um.
+#Total wire length on LAYER Metal5 = 36264 um.
+#Total wire length on LAYER Metal6 = 8593 um.
+#Total wire length on LAYER Metal7 = 449 um.
+#Total wire length on LAYER Metal8 = 0 um.
+#Total wire length on LAYER Metal9 = 0 um.
+#Total wire length on LAYER Metal10 = 0 um.
+#Total wire length on LAYER Metal11 = 0 um.
+#Total number of vias = 94669
+#Up-Via Summary (total 94669):
+#           
+#-----------------------
+# Metal1          46527
+# Metal2          34748
+# Metal3           9685
+# Metal4           3076
+# Metal5            603
+# Metal6             30
+#-----------------------
+#                 94669 
+#
+#
+#Start DRC checking..
+#   number of violations = 0
+#cpu time = 00:00:12, elapsed time = 00:00:03, memory = 2282.08 (MB), peak = 3122.12 (MB)
+#CELL_VIEW AHBLITE_SYS,init has no DRC violation.
+#Total number of DRC violations = 0
+#Total number of net violated process antenna rule = 0
+#   number of violations = 0
+#cpu time = 00:00:16, elapsed time = 00:00:06, memory = 2028.58 (MB), peak = 3122.12 (MB)
+#CELL_VIEW AHBLITE_SYS,init has no DRC violation.
+#Total number of DRC violations = 0
+#Total number of net violated process antenna rule = 0
+#Post Route wire spread is done.
+#Total wire length = 254705 um.
+#Total half perimeter of net bounding box = 221921 um.
+#Total wire length on LAYER Metal1 = 5467 um.
+#Total wire length on LAYER Metal2 = 63679 um.
+#Total wire length on LAYER Metal3 = 82605 um.
+#Total wire length on LAYER Metal4 = 57648 um.
+#Total wire length on LAYER Metal5 = 36264 um.
+#Total wire length on LAYER Metal6 = 8593 um.
+#Total wire length on LAYER Metal7 = 449 um.
+#Total wire length on LAYER Metal8 = 0 um.
+#Total wire length on LAYER Metal9 = 0 um.
+#Total wire length on LAYER Metal10 = 0 um.
+#Total wire length on LAYER Metal11 = 0 um.
+#Total number of vias = 94669
+#Up-Via Summary (total 94669):
+#           
+#-----------------------
+# Metal1          46527
+# Metal2          34748
+# Metal3           9685
+# Metal4           3076
+# Metal5            603
+# Metal6             30
+#-----------------------
+#                 94669 
+#
+#detailRoute Statistics:
+#Cpu time = 00:00:34
+#Elapsed time = 00:00:14
+#Increased memory = 2.39 (MB)
+#Total memory = 2020.28 (MB)
+#Peak memory = 3122.12 (MB)
+#
+#globalDetailRoute statistics:
+#Cpu time = 00:00:40
+#Elapsed time = 00:00:18
+#Increased memory = 6.99 (MB)
+#Total memory = 1953.50 (MB)
+#Peak memory = 3122.12 (MB)
+#Number of warnings = 17
+#Total number of warnings = 52
+#Number of fails = 0
+#Total number of fails = 0
+#Complete globalDetailRoute on Tue Dec  4 16:38:04 2018
+#
+#routeDesign: cpu time = 00:00:40, elapsed time = 00:00:19, memory = 1953.50 (MB), peak = 3122.12 (MB)
+
+*** Summary of all messages that are not suppressed in this session:
+Severity  ID               Count  Summary                                  
+WARNING   IMPCK-8086           1  The command %s is obsolete and will be r...
+*** Message Summary: 1 warning(s), 0 error(s)
+
+innovus 1> Performing RC Extraction ...
+Extraction called for design 'AHBLITE_SYS' of instances=12760 and nets=259122 using extraction engine 'preRoute' .
+**WARN: (IMPEXT-3530):	The process node is not set. Use the command setDesignMode -process <process node> prior to extraction for maximum accuracy and optimal automatic threshold setting.
+Type 'man IMPEXT-3530' for more detail.
+PreRoute RC Extraction called for design AHBLITE_SYS.
+RC Extraction called in multi-corner(1) mode.
+RCMode: PreRoute
+      RC Corner Indexes            0   
+Capacitance Scaling Factor   : 1.00000 
+Resistance Scaling Factor    : 1.00000 
+Clock Cap. Scaling Factor    : 1.00000 
+Clock Res. Scaling Factor    : 1.00000 
+Shrink Factor                : 0.90000
+PreRoute extraction is honoring NDR/Shielding/ExtraSpace for clock nets.
+Using capacitance table file ...
+Updating RC grid for preRoute extraction ...
+Initializing multi-corner capacitance tables ... 
+Initializing multi-corner resistance tables ...
+Creating RPSQ from WeeR and WRes ...
+PreRoute RC Extraction DONE (CPU Time: 0:00:00.3  Real Time: 0:00:00.0  MEM: 2822.508M)
+Dumping SPF file.....
+Created SPF File: AHBLITE_SYS.spf
+innovus 1> Performing RC Extraction ...
+Extraction called for design 'AHBLITE_SYS' of instances=12760 and nets=259122 using extraction engine 'preRoute' .
+**WARN: (IMPEXT-3530):	The process node is not set. Use the command setDesignMode -process <process node> prior to extraction for maximum accuracy and optimal automatic threshold setting.
+Type 'man IMPEXT-3530' for more detail.
+PreRoute RC Extraction called for design AHBLITE_SYS.
+RC Extraction called in multi-corner(1) mode.
+RCMode: PreRoute
+      RC Corner Indexes            0   
+Capacitance Scaling Factor   : 1.00000 
+Resistance Scaling Factor    : 1.00000 
+Clock Cap. Scaling Factor    : 1.00000 
+Clock Res. Scaling Factor    : 1.00000 
+Shrink Factor                : 0.90000
+PreRoute extraction is honoring NDR/Shielding/ExtraSpace for clock nets.
+Using capacitance table file ...
+Updating RC grid for preRoute extraction ...
+Initializing multi-corner capacitance tables ... 
+Initializing multi-corner resistance tables ...
+Creating RPSQ from WeeR and WRes ...
+PreRoute RC Extraction DONE (CPU Time: 0:00:00.3  Real Time: 0:00:01.0  MEM: 2822.508M)
+Dumping SPF file.....
+Created SPF File: AHBLITE_SYS.spf
+innovus 1>  *** Starting Verify Geometry (MEM: 2829.5) ***
+
+**WARN: (IMPVFG-257):	verifyGeometry command is replaced by verify_drc command. It still works in this release but will be removed in future release. Please update your script to use the new command.
+  VERIFY GEOMETRY ...... Starting Verification
+  VERIFY GEOMETRY ...... Initializing
+  VERIFY GEOMETRY ...... Deleting Existing Violations
+  VERIFY GEOMETRY ...... Creating Sub-Areas
+                  ...... bin size: 1920
+Multi-CPU acceleration using 4 CPU(s).
+Saving Drc markers ...
+... No Drc file written since there is no markers found.
+  VERIFY GEOMETRY ...... SubArea : 1 of 121  Thread : 0
+  VERIFY GEOMETRY ...... SubArea : 2 of 121  Thread : 1
+  VERIFY GEOMETRY ...... SubArea : 3 of 121  Thread : 2
+  VERIFY GEOMETRY ...... SubArea : 4 of 121  Thread : 3
+  VERIFY GEOMETRY ...... SubArea : 7 of 121  Thread : 2
+  VERIFY GEOMETRY ...... SubArea : 5 of 121   VERIFY GEOMETRY ...... SubArea :  Thread : 80 of 
+121  Thread : 3
+  VERIFY GEOMETRY ...... SubArea : 6 of 121  Thread : 1
+  VERIFY GEOMETRY ...... SubArea : 9 of 121  Thread : 0
+  VERIFY GEOMETRY ...... SubArea : 12 of 121  Thread : 3
+  VERIFY GEOMETRY ...... SubArea : 10 of 121  Thread : 1
+  VERIFY GEOMETRY ...... SubArea : 11 of 121  Thread : 2
+  VERIFY GEOMETRY ...... SubArea : 14 of 121  Thread : 1
+  VERIFY GEOMETRY ...... SubArea : 13 of 121  Thread : 0
+  VERIFY GEOMETRY ...... SubArea : 18 of 121  Thread : 1
+  VERIFY GEOMETRY ...... SubArea : 17 of 121  Thread : 0
+  VERIFY GEOMETRY ...... SubArea : 15 of 121  Thread : 2
+  VERIFY GEOMETRY ...... SubArea : 22 of 121  Thread : 1
+  VERIFY GEOMETRY ...... SubArea : 16 of 121  Thread : 3
+  VERIFY GEOMETRY ...... SubArea : 21 of 121  Thread : 0
+  VERIFY GEOMETRY ...... SubArea : 20 of 121  Thread : 3
+  VERIFY GEOMETRY ...... SubArea : 26 of 121  Thread : 1
+  VERIFY GEOMETRY ...... SubArea : 25 of 121  Thread : 0
+  VERIFY GEOMETRY ...... SubArea : 24 of 121  Thread : 3
+  VERIFY GEOMETRY ...... SubArea : 29 of 121  Thread : 0
+  VERIFY GEOMETRY ...... SubArea : 30 of 121  Thread : 1
+  VERIFY GEOMETRY ...... SubArea : 28 of 121  Thread : 3
+  VERIFY GEOMETRY ...... SubArea : 19 of 121  Thread : 2
+  VERIFY GEOMETRY ...... SubArea : 23 of 121  Thread : 2
+  VERIFY GEOMETRY ...... SubArea : 33 of 121  Thread : 0
+  VERIFY GEOMETRY ...... SubArea : 34 of 121  Thread : 1
+  VERIFY GEOMETRY ...... SubArea : 32 of 121  Thread : 3
+  VERIFY GEOMETRY ...... SubArea : 27 of 121  Thread : 2
+  VERIFY GEOMETRY ...... SubArea : 36 of 121  Thread : 3
+  VERIFY GEOMETRY ...... SubArea : 37 of 121  Thread : 0
+  VERIFY GEOMETRY ...... SubArea : 38 of 121  Thread : 1
+  VERIFY GEOMETRY ...... SubArea : 31 of 121  Thread : 2
+  VERIFY GEOMETRY ...... SubArea : 40 of 121  Thread : 3
+  VERIFY GEOMETRY ...... SubArea : 41 of 121  Thread : 0
+  VERIFY GEOMETRY ...... SubArea : 42 of 121  Thread : 1
+  VERIFY GEOMETRY ...... SubArea : 35 of 121  Thread : 2
+  VERIFY GEOMETRY ...... SubArea : 44 of 121  Thread : 3
+  VERIFY GEOMETRY ...... SubArea : 45 of 121  Thread : 0
+  VERIFY GEOMETRY ...... SubArea : 46 of 121  Thread : 1
+  VERIFY GEOMETRY ...... SubArea : 39 of 121  Thread : 2
+  VERIFY GEOMETRY ...... SubArea : 48 of 121  Thread : 3
+  VERIFY GEOMETRY ...... SubArea : 50 of 121  Thread : 1
+  VERIFY GEOMETRY ...... SubArea : 49 of 121  Thread : 0
+  VERIFY GEOMETRY ...... SubArea : 43 of 121  Thread : 2
+  VERIFY GEOMETRY ...... SubArea : 52 of 121  Thread : 3
+  VERIFY GEOMETRY ...... SubArea : 54 of 121  Thread : 1
+  VERIFY GEOMETRY ...... SubArea : 53 of 121  Thread : 0
+  VERIFY GEOMETRY ...... SubArea : 47 of 121  Thread : 2
+  VERIFY GEOMETRY ...... SubArea : 56 of 121  Thread : 3
+  VERIFY GEOMETRY ...... SubArea : 58 of 121  Thread : 1
+  VERIFY GEOMETRY ...... SubArea : 57 of 121  Thread : 0
+  VERIFY GEOMETRY ...... SubArea : 51 of 121  Thread : 2
+  VERIFY GEOMETRY ...... SubArea : 60 of 121  Thread : 3
+  VERIFY GEOMETRY ...... SubArea : 62 of 121  Thread : 1
+  VERIFY GEOMETRY ...... SubArea : 61 of 121  Thread : 0
+  VERIFY GEOMETRY ...... SubArea : 55 of 121  Thread : 2
+  VERIFY GEOMETRY ...... SubArea : 64 of 121  Thread : 3
+  VERIFY GEOMETRY ...... SubArea : 66 of 121  Thread : 1
+  VERIFY GEOMETRY ...... SubArea : 65 of 121  Thread : 0
+  VERIFY GEOMETRY ...... SubArea : 59 of 121  Thread : 2
+  VERIFY GEOMETRY ...... SubArea : 68 of 121  Thread : 3
+  VERIFY GEOMETRY ...... SubArea : 69 of 121  Thread : 0
+  VERIFY GEOMETRY ...... SubArea : 70 of 121  Thread : 1
+  VERIFY GEOMETRY ...... SubArea : 63 of 121  Thread : 2
+  VERIFY GEOMETRY ...... SubArea : 72 of 121  Thread : 3
+  VERIFY GEOMETRY ...... SubArea : 73 of 121  Thread : 0
+  VERIFY GEOMETRY ...... SubArea : 67 of 121  Thread : 2
+  VERIFY GEOMETRY ...... SubArea : 74 of 121  Thread : 1
+  VERIFY GEOMETRY ...... SubArea : 77 of 121  Thread : 0
+  VERIFY GEOMETRY ...... SubArea : 76 of 121  Thread : 3
+  VERIFY GEOMETRY ...... SubArea : 78 of 121  Thread : 1
+  VERIFY GEOMETRY ...... SubArea : 71 of 121  Thread : 2
+  VERIFY GEOMETRY ...... SubArea : 81 of 121  Thread : 0
+  VERIFY GEOMETRY ...... SubArea : 80 of 121  Thread : 3
+  VERIFY GEOMETRY ...... SubArea : 75 of 121  Thread : 2
+  VERIFY GEOMETRY ...... SubArea : 82 of 121  Thread : 1
+  VERIFY GEOMETRY ...... SubArea : 85 of 121  Thread : 0
+  VERIFY GEOMETRY ...... SubArea : 84 of 121  Thread : 3
+  VERIFY GEOMETRY ...... SubArea : 86 of 121  Thread : 1
+  VERIFY GEOMETRY ...... SubArea : 79 of 121  Thread : 2
+  VERIFY GEOMETRY ...... SubArea : 88 of 121  Thread : 3
+  VERIFY GEOMETRY ...... SubArea : 89 of 121  Thread : 0
+  VERIFY GEOMETRY ...... SubArea : 83 of 121  Thread : 2
+  VERIFY GEOMETRY ...... SubArea : 90 of 121  Thread : 1
+  VERIFY GEOMETRY ...... SubArea : 92 of 121  Thread : 3
+  VERIFY GEOMETRY ...... SubArea : 93 of 121  Thread : 0
+  VERIFY GEOMETRY ...... SubArea : 87 of 121  Thread : 2
+  VERIFY GEOMETRY ...... SubArea : 94 of 121  Thread : 1
+  VERIFY GEOMETRY ...... SubArea : 96 of 121  Thread : 3
+  VERIFY GEOMETRY ...... SubArea : 97 of 121  Thread : 0
+  VERIFY GEOMETRY ...... SubArea : 91 of 121  Thread : 2
+  VERIFY GEOMETRY ...... SubArea : 98 of 121  Thread : 1
+  VERIFY GEOMETRY ...... SubArea : 100 of 121  Thread : 3
+  VERIFY GEOMETRY ...... SubArea : 95 of 121  Thread : 2
+  VERIFY GEOMETRY ...... SubArea : 104 of 121  Thread : 3
+  VERIFY GEOMETRY ...... SubArea : 99 of 121  Thread : 2
+  VERIFY GEOMETRY ...... SubArea : 108 of 121  Thread : 3
+  VERIFY GEOMETRY ...... SubArea : 101 of 121  Thread : 0
+  VERIFY GEOMETRY ...... SubArea : 105 of 121  Thread : 0
+  VERIFY GEOMETRY ...... SubArea : 109 of 121  Thread : 0
+***WARN: *WARN: (IMPVFG-47):	This warning message means the PG pin of macro/macros is not connected to relevant PG net in the design. If we query the particular PG pin 'net:NULL' will be displayed in the Innovus GUI.
+
+(IMPVFG-47):	This warning message means the PG pin of macro/macros is not connected to relevant PG net in the design. If we query the particular PG pin 'net:NULL' will be displayed in the Innovus GUI.
+
+***WARN: *WARN: (IMPVFG-47):	This warning message means the PG pin of macro/macros is not connected to relevant PG net in the design. If we query the particular PG pin 'net:NULL' will be displayed in the Innovus GUI.
+
+(IMPVFG-47):	This warning message means the PG pin of macro/macros is not connected to relevant PG net in the design. If we query the particular PG pin 'net:NULL' will be displayed in the Innovus GUI.
+
+  VERIFY GEOMETRY ...... SubArea : 113 of 121  Thread : 0
+  VERIFY GEOMETRY ...... SubArea : 103 of 121  Thread : 2
+  VERIFY GEOMETRY ...... SubArea : 102 of 121  Thread : 1
+  VERIFY GEOMETRY ...... SubArea : 112 of 121  Thread : 3
+  VERIFY GEOMETRY ...... SubArea : 107 of 121  Thread : 2
+  VERIFY GEOMETRY ...... SubArea : 106 of 121  Thread : 1
+  VERIFY GEOMETRY ...... SubArea : 111 of 121  Thread : 2
+  VERIFY GEOMETRY ...... SubArea : 110 of 121  Thread : 1
+  VERIFY GEOMETRY ...... SubArea : 116 of 121  Thread : 3
+  VERIFY GEOMETRY ...... SubArea : 115 of 121  Thread : 2
+  VERIFY GEOMETRY ...... SubArea : 117 of 121  Thread : 0
+  VERIFY GEOMETRY ...... SubArea : 120 of 121  Thread : 3
+  VERIFY GEOMETRY ...... SubArea : 119 of 121  Thread : 2
+  VERIFY GEOMETRY ...... SubArea : 121 of 121  Thread : 0
+  VERIFY GEOMETRY ...... SubArea : 114 of 121  Thread : 1
+  VERIFY GEOMETRY ...... SubArea : 118 of 121  Thread : 1
+**WARN: (PRL-280):	The elapsed time (321 sec) of the threaded job 3 is more than twice the CPU time (22 sec).  This indicates that enough physical memory is not available and the system may be swapping. It is recommended that you reduce the number of threads or jobs being run on this machine, or execute this job on a machine with a larger physical memory.
+**WARN: (PRL-280):	The elapsed time (321 sec) of the threaded job 1 is more than twice the CPU time (25 sec).  This indicates that enough physical memory is not available and the system may be swapping. It is recommended that you reduce the number of threads or jobs being run on this machine, or execute this job on a machine with a larger physical memory.
+**WARN: (PRL-280):	The elapsed time (321 sec) of the threaded job 2 is more than twice the CPU time (24 sec).  This indicates that enough physical memory is not available and the system may be swapping. It is recommended that you reduce the number of threads or jobs being run on this machine, or execute this job on a machine with a larger physical memory.
+**WARN: (PRL-280):	The elapsed time (321 sec) of the threaded job 4 is more than twice the CPU time (25 sec).  This indicates that enough physical memory is not available and the system may be swapping. It is recommended that you reduce the number of threads or jobs being run on this machine, or execute this job on a machine with a larger physical memory.
+VG: elapsed time: 348.00
+Begin Summary ...
+  Cells       : 0
+  SameNet     : 0
+  Wiring      : 0
+  Antenna     : 0
+  Short       : 0
+  Overlap     : 0
+End Summary
+
+  Verification Complete : 0 Viols.  0 Wrngs.
+
+**********End: VERIFY GEOMETRY**********
+ *** verify geometry (CPU: 0:01:36  MEM: 2111.5M)
+
+innovus 1> 

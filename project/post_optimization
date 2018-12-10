@@ -1,0 +1,509 @@
+[NR-eGR] Rule id 0. Nets 13053 
+[NR-eGR] id=0  ndrTrackId=0  ndrViaId=-1  extraSpace=0  numShields=0  maxHorDemand=1  maxVerDemand=1
+[NR-eGR] Pitch:  L1=240  L2=400  L3=380  L4=400  L5=380  L6=400  L7=380  L8=400  L9=380  L10=1000  L11=950
+[NR-eGR] ========================================
+[NR-eGR] 
+[NR-eGR] Layer group 1: route 13053 net(s) in layer range [2, 11]
+[NR-eGR] earlyGlobalRoute overflow of layer group 1: 0.00% H + 0.00% V. EstWL: 2.379362e+05um
+[NR-eGR] 
+[NR-eGR] Overflow after earlyGlobalRoute (GR compatible) 0.00% H + 0.00% V
+[NR-eGR] Overflow after earlyGlobalRoute 0.00% H + 0.00% V
+Local HotSpot Analysis: normalized max congestion hotspot area = 0.00, normalized total congestion hotspot area = 0.00 (area is in unit of 4 std-cell row bins)
+Skipped repairing congestion.
+[NR-eGR] --------------------------------------------------------------------------
+[NR-eGR] Layer1(Metal1)(F) length: 0.000000e+00um, number of vias: 45494
+[NR-eGR] Layer2(Metal2)(V) length: 7.890761e+04um, number of vias: 67298
+[NR-eGR] Layer3(Metal3)(H) length: 9.538825e+04um, number of vias: 7098
+[NR-eGR] Layer4(Metal4)(V) length: 4.217078e+04um, number of vias: 2608
+[NR-eGR] Layer5(Metal5)(H) length: 2.737358e+04um, number of vias: 325
+[NR-eGR] Layer6(Metal6)(V) length: 4.804060e+03um, number of vias: 27
+[NR-eGR] Layer7(Metal7)(H) length: 7.181300e+02um, number of vias: 0
+[NR-eGR] Layer8(Metal8)(V) length: 0.000000e+00um, number of vias: 0
+[NR-eGR] Layer9(Metal9)(H) length: 0.000000e+00um, number of vias: 0
+[NR-eGR] Layer10(Metal10)(V) length: 0.000000e+00um, number of vias: 0
+[NR-eGR] Layer11(Metal11)(H) length: 0.000000e+00um, number of vias: 0
+[NR-eGR] Total length: 2.493624e+05um, number of vias: 122850
+[NR-eGR] --------------------------------------------------------------------------
+[NR-eGR] Total clock nets wire length: 0.000000e+00um 
+[NR-eGR] --------------------------------------------------------------------------
+End of congRepair (cpu=0:00:01.8, real=0:00:02.0)
+Start to check current routing status for nets...
+All nets are already routed correctly.
+End to check current routing status for nets (mem=2861.5M)
+Extraction called for design 'AHBLITE_SYS' of instances=12543 and nets=258905 using extraction engine 'preRoute' .
+**WARN: (IMPEXT-3530):	The process node is not set. Use the command setDesignMode -process <process node> prior to extraction for maximum accuracy and optimal automatic threshold setting.
+Type 'man IMPEXT-3530' for more detail.
+PreRoute RC Extraction called for design AHBLITE_SYS.
+RC Extraction called in multi-corner(1) mode.
+RCMode: PreRoute
+      RC Corner Indexes            0   
+Capacitance Scaling Factor   : 1.00000 
+Resistance Scaling Factor    : 1.00000 
+Clock Cap. Scaling Factor    : 1.00000 
+Clock Res. Scaling Factor    : 1.00000 
+Shrink Factor                : 0.90000
+PreRoute extraction is honoring NDR/Shielding/ExtraSpace for clock nets.
+Using capacitance table file ...
+Updating RC grid for preRoute extraction ...
+Initializing multi-corner capacitance tables ... 
+Initializing multi-corner resistance tables ...
+Creating RPSQ from WeeR and WRes ...
+PreRoute RC Extraction DONE (CPU Time: 0:00:00.3  Real Time: 0:00:00.0  MEM: 2861.512M)
+**optDesign ... cpu = 0:01:02, real = 0:00:44, mem = 1936.6M, totSessionCpu=1:35:37 **
+#################################################################################
+# Design Stage: PreRoute
+# Design Name: AHBLITE_SYS
+# Design Mode: 90nm
+# Analysis Mode: MMMC Non-OCV 
+# Parasitics Mode: No SPEF/RCDB
+# Signoff Settings: SI Off 
+#################################################################################
+Calculate delays in BcWc mode...
+Start delay calculation (fullDC) (4 T). (MEM=2865.45)
+Total number of fetched objects 13028
+AAE_INFO: Total number of nets for which stage creation was skipped for all views 0
+End delay calculation. (MEM=3088.71 CPU=0:00:01.7 REAL=0:00:00.0)
+End delay calculation (fullDC). (MEM=3088.71 CPU=0:00:02.4 REAL=0:00:00.0)
+Begin: GigaOpt DRV Optimization
+Info: 0 don't touch net , 36 undriven nets excluded from IPO operation.
+Info: 1 top-level, potential tri-state net  excluded from IPO operation.
++-------------------------------------------------------------------------------------------------------------------------------------------------------+
+|        max-tran       |        max-cap        |  max-fanout |  max-length |       setup       |        |        |        |       |          |         |
++-------------------------------------------------------------------------------------------------------------------------------------------------------+
+| nets | terms|  wViol  | nets | terms|  wViol  | nets | terms| nets | terms|   WNS   |   TNS   |  #Buf  |  #Inv  | #Resize|Density|   Real   |   Mem   |
++-------------------------------------------------------------------------------------------------------------------------------------------------------+
+|   815|  1973|    -1.29|     0|     0|     0.00|     0|     0|     0|     0||-9.22e+14|     0.00|       0|       0|       0|   1.73|          |         |
+|    38|    85|    -0.09|     0|     0|     0.00|     0|     0|     0|     0||-9.22e+14|     0.00|     618|       0|     267|   1.79| 0:00:01.0|  3332.3M|
+|     2|     4|    -0.02|     0|     0|     0.00|     0|     0|     0|     0||-9.22e+14|     0.00|      28|       0|      27|   1.79| 0:00:01.0|  3332.3M|
+|     0|     0|     0.00|     0|     0|     0.00|     0|     0|     0|     0||-9.22e+14|     0.00|       0|       0|       2|   1.79| 0:00:00.0|  3332.3M|
++-------------------------------------------------------------------------------------------------------------------------------------------------------+
+**** Begin NDR-Layer Usage Statistics ****
+0 Ndr or Layer constraints added by optimization 
+**** End NDR-Layer Usage Statistics ****
+
+*** Finish DRV Fixing (cpu=0:00:05.4 real=0:00:02.0 mem=3332.3M) ***
+
+*** Starting refinePlace (1:35:49 mem=3330.3M) ***
+Total net bbox length = 2.370e+05 (1.211e+05 1.159e+05) (ext = 2.653e+04)
+**WARN: (IMPSP-5140):	Global net connect rules have not been created. Added  insts would have no supply connectivity, and would fail DRC.
+Type 'man IMPSP-5140' for more detail.
+**WARN: (IMPSP-315):	Found 13189 instances insts with no PG Term connections.
+Type 'man IMPSP-315' for more detail.
+Density distribution unevenness ratio = 96.762%
+Density distribution unevenness ratio = 96.762%
+Move report: Detail placement moves 1721 insts, mean move: 0.37 um, max move: 2.71 um
+	Max move on inst (u_CORTEXM0INTEGRATION/u_logic/g287702): (1226.20, 1111.50) --> (1227.20, 1109.79)
+	Runtime: CPU: 0:00:01.0 REAL: 0:00:01.0 MEM: 3330.3MB
+Summary Report:
+Instances move: 1721 (out of 13189 movable)
+Instances flipped: 0
+Mean displacement: 0.37 um
+Max displacement: 2.71 um (Instance: u_CORTEXM0INTEGRATION/u_logic/g287702) (1226.2, 1111.5) -> (1227.2, 1109.79)
+	Length: 3 sites, height: 1 rows, site name: CoreSite, cell type: NOR2XL
+Total net bbox length = 2.374e+05 (1.214e+05 1.160e+05) (ext = 2.653e+04)
+Runtime: CPU: 0:00:01.1 REAL: 0:00:01.0 MEM: 3330.3MB
+*** Finished refinePlace (1:35:50 mem=3330.3M) ***
+*** maximum move = 2.71 um ***
+*** Finished re-routing un-routed nets (3330.3M) ***
+
+*** Finish Physical Update (cpu=0:00:01.9 real=0:00:01.0 mem=3330.3M) ***
+End: GigaOpt DRV Optimization
+GigaOpt DRV: restore maxLocalDensity to 0.98
+
+------------------------------------------------------------
+     Summary (cpu=0.15min real=0.08min mem=2901.8M)                             
+------------------------------------------------------------
+
+Setup views included:
+ WORST_CASE 
+
++--------------------+---------+
+|     Setup mode     |   all   |
++--------------------+---------+
+|           WNS (ns):|   N/A   |
+|           TNS (ns):|   N/A   |
+|    Violating Paths:|   N/A   |
+|          All Paths:|   N/A   |
++--------------------+---------+
+
++----------------+-------------------------------+------------------+
+|                |              Real             |       Total      |
+|    DRVs        +------------------+------------+------------------|
+|                |  Nr nets(terms)  | Worst Vio  |  Nr nets(terms)  |
++----------------+------------------+------------+------------------+
+|   max_cap      |      0 (0)       |   0.000    |      0 (0)       |
+|   max_tran     |      0 (0)       |   0.000    |      0 (0)       |
+|   max_fanout   |      0 (0)       |     0      |      0 (0)       |
+|   max_length   |      0 (0)       |     0      |      0 (0)       |
++----------------+------------------+------------+------------------+
+
+Density: 1.795%
+Routing Overflow: 0.00% H and 0.00% V
+------------------------------------------------------------
+**optDesign ... cpu = 0:01:16, real = 0:00:52, mem = 2029.4M, totSessionCpu=1:35:51 **
+*** Check timing (0:00:00.0)
+Begin: GigaOpt Optimization in WNS mode
+Info: 0 don't touch net , 36 undriven nets excluded from IPO operation.
+Info: 1 top-level, potential tri-state net  excluded from IPO operation.
+Info: 1 top-level, potential tri-state net  excluded from IPO operation.
+*info: 2 special nets excluded.
+*info: 1 multi-driver net excluded.
+*info: 245876 no-driver nets excluded.
+** GigaOpt Optimizer WNS Slack 0.057 TNS Slack 0.000 Density 1.79
+**** Begin NDR-Layer Usage Statistics ****
+0 Ndr or Layer constraints added by optimization 
+**** End NDR-Layer Usage Statistics ****
+
+*** Finish pre-CTS Setup Fixing (cpu=0:00:00.7 real=0:00:01.0 mem=3282.2M) ***
+
+End: GigaOpt Optimization in WNS mode
+*** Check timing (0:00:00.0)
+Begin: GigaOpt Optimization in TNS mode
+Info: 0 don't touch net , 36 undriven nets excluded from IPO operation.
+Info: 1 top-level, potential tri-state net  excluded from IPO operation.
+Info: 1 top-level, potential tri-state net  excluded from IPO operation.
+*info: 2 special nets excluded.
+*info: 1 multi-driver net excluded.
+*info: 245876 no-driver nets excluded.
+** GigaOpt Optimizer WNS Slack 0.057 TNS Slack 0.000 Density 1.79
+
+*** Finished Optimize Step Cumulative (cpu=0:00:00.0 real=0:00:00.0 mem=3304.2M) ***
+**** Begin NDR-Layer Usage Statistics ****
+0 Ndr or Layer constraints added by optimization 
+**** End NDR-Layer Usage Statistics ****
+
+*** Finish pre-CTS Setup Fixing (cpu=0:00:00.2 real=0:00:01.0 mem=3304.2M) ***
+
+End: GigaOpt Optimization in TNS mode
+Info: 0 don't touch net , 36 undriven nets excluded from IPO operation.
+Info: 1 top-level, potential tri-state net  excluded from IPO operation.
+Begin: Area Reclaim Optimization
+Reclaim Optimization WNS Slack 0.000  TNS Slack 0.000 Density 1.79
++----------+---------+--------+--------+------------+--------+
+| Density  | Commits |  WNS   |  TNS   |    Real    |  Mem   |
++----------+---------+--------+--------+------------+--------+
+|     1.79%|        -|   0.000|   0.000|   0:00:00.0| 3298.7M|
+|     1.79%|        0|   0.000|   0.000|   0:00:00.0| 3298.7M|
+|     1.74%|      607|   0.000|   0.000|   0:00:02.0| 3298.7M|
+|     1.74%|        4|   0.000|   0.000|   0:00:00.0| 3298.7M|
+|     1.74%|        0|   0.000|   0.000|   0:00:00.0| 3298.7M|
+|     1.74%|        0|   0.000|   0.000|   0:00:00.0| 3298.7M|
++----------+---------+--------+--------+------------+--------+
+Reclaim Optimization End WNS Slack 0.000  TNS Slack 0.000 Density 1.74
+**** Begin NDR-Layer Usage Statistics ****
+0 Ndr or Layer constraints added by optimization 
+**** End NDR-Layer Usage Statistics ****
+** Finished Core Area Reclaim Optimization (cpu = 0:00:04.7) (real = 0:00:02.0) **
+*** Starting refinePlace (1:36:03 mem=3298.7M) ***
+Total net bbox length = 2.371e+05 (1.213e+05 1.158e+05) (ext = 2.654e+04)
+**WARN: (IMPSP-5140):	Global net connect rules have not been created. Added  insts would have no supply connectivity, and would fail DRC.
+Type 'man IMPSP-5140' for more detail.
+**WARN: (IMPSP-315):	Found 12704 instances insts with no PG Term connections.
+Type 'man IMPSP-315' for more detail.
+Move report: Detail placement moves 0 insts, mean move: 0.00 um, max move: 0.00 um
+	Runtime: CPU: 0:00:00.2 REAL: 0:00:00.0 MEM: 3298.7MB
+Summary Report:
+Instances move: 0 (out of 12704 movable)
+Instances flipped: 0
+Mean displacement: 0.00 um
+Max displacement: 0.00 um 
+Total net bbox length = 2.371e+05 (1.213e+05 1.158e+05) (ext = 2.654e+04)
+Runtime: CPU: 0:00:00.2 REAL: 0:00:00.0 MEM: 3298.7MB
+*** Finished refinePlace (1:36:03 mem=3298.7M) ***
+*** maximum move = 0.00 um ***
+*** Finished re-routing un-routed nets (3298.7M) ***
+
+*** Finish Physical Update (cpu=0:00:01.0 real=0:00:01.0 mem=3298.7M) ***
+*** Finished Area Reclaim Optimization (cpu=0:00:06, real=0:00:03, mem=2903.79M, totSessionCpu=1:36:04).
+[NR-eGR] Detected a user setting of 'setTrialRouteModePrv -handlePreroute true' which was ignored.
+[NR-eGR] honorMsvRouteConstraint: false
+[NR-eGR] honorClockSpecNDR      : 0
+[NR-eGR] minRouteLayer          : 2
+[NR-eGR] maxRouteLayer          : 127
+[NR-eGR] numTracksPerClockWire  : 0
+[NR-eGR] Layer1 has no routable track
+[NR-eGR] Layer2 has single uniform track structure
+[NR-eGR] Layer3 has single uniform track structure
+[NR-eGR] Layer4 has single uniform track structure
+[NR-eGR] Layer5 has single uniform track structure
+[NR-eGR] Layer6 has single uniform track structure
+[NR-eGR] Layer7 has single uniform track structure
+[NR-eGR] Layer8 has single uniform track structure
+[NR-eGR] Layer9 has single uniform track structure
+[NR-eGR] Layer10 has single uniform track structure
+[NR-eGR] Layer11 has single uniform track structure
+[NR-eGR] numRoutingBlks=0 numInstBlks=0 numPGBlocks=26400 numBumpBlks=0 numBoundaryFakeBlks=0
+[NR-eGR] numPreroutedNet = 0  numPreroutedWires = 0
+[NR-eGR] Read numTotalNets=13214  numIgnoredNets=0
+[NR-eGR] ============ Routing rule table ============
+[NR-eGR] Rule id 0. Nets 13214 
+[NR-eGR] id=0  ndrTrackId=0  ndrViaId=-1  extraSpace=0  numShields=0  maxHorDemand=1  maxVerDemand=1
+[NR-eGR] Pitch:  L1=240  L2=400  L3=380  L4=400  L5=380  L6=400  L7=380  L8=400  L9=380  L10=1000  L11=950
+[NR-eGR] ========================================
+[NR-eGR] 
+[NR-eGR] Layer group 1: route 13214 net(s) in layer range [2, 11]
+[NR-eGR] earlyGlobalRoute overflow of layer group 1: 0.00% H + 0.00% V. EstWL: 2.384150e+05um
+[NR-eGR] 
+[NR-eGR] Overflow after earlyGlobalRoute (GR compatible) 0.00% H + 0.00% V
+[NR-eGR] Overflow after earlyGlobalRoute 0.00% H + 0.00% V
+[NR-eGR] --------------------------------------------------------------------------
+[NR-eGR] Layer1(Metal1)(F) length: 0.000000e+00um, number of vias: 45816
+[NR-eGR] Layer2(Metal2)(V) length: 7.822615e+04um, number of vias: 67444
+[NR-eGR] Layer3(Metal3)(H) length: 9.498688e+04um, number of vias: 7220
+[NR-eGR] Layer4(Metal4)(V) length: 4.204366e+04um, number of vias: 2705
+[NR-eGR] Layer5(Metal5)(H) length: 2.859871e+04um, number of vias: 391
+[NR-eGR] Layer6(Metal6)(V) length: 5.614981e+03um, number of vias: 26
+[NR-eGR] Layer7(Metal7)(H) length: 5.640000e+02um, number of vias: 0
+[NR-eGR] Layer8(Metal8)(V) length: 0.000000e+00um, number of vias: 0
+[NR-eGR] Layer9(Metal9)(H) length: 0.000000e+00um, number of vias: 0
+[NR-eGR] Layer10(Metal10)(V) length: 0.000000e+00um, number of vias: 0
+[NR-eGR] Layer11(Metal11)(H) length: 0.000000e+00um, number of vias: 0
+[NR-eGR] Total length: 2.500344e+05um, number of vias: 123602
+[NR-eGR] --------------------------------------------------------------------------
+[NR-eGR] Total clock nets wire length: 0.000000e+00um 
+[NR-eGR] --------------------------------------------------------------------------
+[NR-eGR] End Peak syMemory usage = 2879.1 MB
+[NR-eGR] Early Global Router Kernel+IO runtime : 1.81 seconds
+Extraction called for design 'AHBLITE_SYS' of instances=12704 and nets=259066 using extraction engine 'preRoute' .
+**WARN: (IMPEXT-3530):	The process node is not set. Use the command setDesignMode -process <process node> prior to extraction for maximum accuracy and optimal automatic threshold setting.
+Type 'man IMPEXT-3530' for more detail.
+PreRoute RC Extraction called for design AHBLITE_SYS.
+RC Extraction called in multi-corner(1) mode.
+RCMode: PreRoute
+      RC Corner Indexes            0   
+Capacitance Scaling Factor   : 1.00000 
+Resistance Scaling Factor    : 1.00000 
+Clock Cap. Scaling Factor    : 1.00000 
+Clock Res. Scaling Factor    : 1.00000 
+Shrink Factor                : 0.90000
+PreRoute extraction is honoring NDR/Shielding/ExtraSpace for clock nets.
+Using capacitance table file ...
+Updating RC grid for preRoute extraction ...
+Initializing multi-corner capacitance tables ... 
+Initializing multi-corner resistance tables ...
+Creating RPSQ from WeeR and WRes ...
+PreRoute RC Extraction DONE (CPU Time: 0:00:00.3  Real Time: 0:00:00.0  MEM: 2876.949M)
+Compute RC Scale Done ...
+[hotspot] +------------+---------------+---------------+
+[hotspot] |            |   max hotspot | total hotspot |
+[hotspot] +------------+---------------+---------------+
+[hotspot] | normalized |          0.00 |          0.00 |
+[hotspot] +------------+---------------+---------------+
+Local HotSpot Analysis: normalized max congestion hotspot area = 0.00, normalized total congestion hotspot area = 0.00 (area is in unit of 4 std-cell row bins)
+#################################################################################
+# Design Stage: PreRoute
+# Design Name: AHBLITE_SYS
+# Design Mode: 90nm
+# Analysis Mode: MMMC Non-OCV 
+# Parasitics Mode: No SPEF/RCDB
+# Signoff Settings: SI Off 
+#################################################################################
+Calculate delays in BcWc mode...
+Start delay calculation (fullDC) (4 T). (MEM=2928.18)
+Total number of fetched objects 13189
+AAE_INFO: Total number of nets for which stage creation was skipped for all views 0
+End delay calculation. (MEM=3103.75 CPU=0:00:01.8 REAL=0:00:01.0)
+End delay calculation (fullDC). (MEM=3103.75 CPU=0:00:02.4 REAL=0:00:01.0)
+Begin: GigaOpt postEco DRV Optimization
+Info: 0 don't touch net , 36 undriven nets excluded from IPO operation.
+Info: 1 top-level, potential tri-state net  excluded from IPO operation.
++-------------------------------------------------------------------------------------------------------------------------------------------------------+
+|        max-tran       |        max-cap        |  max-fanout |  max-length |       setup       |        |        |        |       |          |         |
++-------------------------------------------------------------------------------------------------------------------------------------------------------+
+| nets | terms|  wViol  | nets | terms|  wViol  | nets | terms| nets | terms|   WNS   |   TNS   |  #Buf  |  #Inv  | #Resize|Density|   Real   |   Mem   |
++-------------------------------------------------------------------------------------------------------------------------------------------------------+
+|    98|   349|    -0.08|     0|     0|     0.00|     0|     0|     0|     0||-9.22e+14|     0.00|       0|       0|       0|   1.74|          |         |
+|     4|     8|    -0.02|     0|     0|     0.00|     0|     0|     0|     0||-9.22e+14|     0.00|      53|       0|      60|   1.75| 0:00:01.0|  3329.7M|
+|     1|     2|    -0.00|     0|     0|     0.00|     0|     0|     0|     0||-9.22e+14|     0.00|       3|       0|       1|   1.75| 0:00:00.0|  3329.7M|
+|     1|     2|    -0.00|     0|     0|     0.00|     0|     0|     0|     0||-9.22e+14|     0.00|       0|       0|       0|   1.75| 0:00:00.0|  3329.7M|
++-------------------------------------------------------------------------------------------------------------------------------------------------------+
+**** Begin NDR-Layer Usage Statistics ****
+0 Ndr or Layer constraints added by optimization 
+**** End NDR-Layer Usage Statistics ****
+
+
+=======================================================================
+                Reasons for remaining drv violations
+=======================================================================
+*info: Total 1 net(s) have violations which can't be fixed by DRV optimization.
+
+MultiBuffering failure reasons
+------------------------------------------------
+*info:     1 net(s): Could not be fixed because the solution degraded timing.
+
+SingleBuffering failure reasons
+------------------------------------------------
+*info:     1 net(s): Could not be fixed because of the buffering solution introduces DRV degradation.
+
+Resizing failure reasons
+------------------------------------------------
+*info:     1 net(s): Could not be fixed because no move is found.
+
+
+*** Finish DRV Fixing (cpu=0:00:01.8 real=0:00:01.0 mem=3329.7M) ***
+
+*** Starting refinePlace (1:36:14 mem=3327.7M) ***
+Total net bbox length = 2.373e+05 (1.214e+05 1.159e+05) (ext = 2.654e+04)
+**WARN: (IMPSP-5140):	Global net connect rules have not been created. Added  insts would have no supply connectivity, and would fail DRC.
+Type 'man IMPSP-5140' for more detail.
+**WARN: (IMPSP-315):	Found 12760 instances insts with no PG Term connections.
+Type 'man IMPSP-315' for more detail.
+Move report: Detail placement moves 15 insts, mean move: 1.18 um, max move: 3.42 um
+	Max move on inst (u_CORTEXM0INTEGRATION/u_logic/FE_OFC3541_n_6876): (1251.20, 1306.44) --> (1251.20, 1303.02)
+	Runtime: CPU: 0:00:00.1 REAL: 0:00:00.0 MEM: 3327.7MB
+Summary Report:
+Instances move: 15 (out of 12760 movable)
+Instances flipped: 0
+Mean displacement: 1.18 um
+Max displacement: 3.42 um (Instance: u_CORTEXM0INTEGRATION/u_logic/FE_OFC3541_n_6876) (1251.2, 1306.44) -> (1251.2, 1303.02)
+	Length: 5 sites, height: 1 rows, site name: CoreSite, cell type: CLKBUFX2
+Total net bbox length = 2.373e+05 (1.214e+05 1.159e+05) (ext = 2.654e+04)
+Runtime: CPU: 0:00:00.2 REAL: 0:00:00.0 MEM: 3327.7MB
+*** Finished refinePlace (1:36:14 mem=3327.7M) ***
+*** maximum move = 3.42 um ***
+*** Finished re-routing un-routed nets (3327.7M) ***
+
+*** Finish Physical Update (cpu=0:00:01.0 real=0:00:01.0 mem=3327.7M) ***
+End: GigaOpt postEco DRV Optimization
+GigaOpt: WNS changes after routing: -922337203685477.500 -> -922337203685477.500 (bump = 0.0)
+Begin: GigaOpt postEco optimization
+Info: 0 don't touch net , 36 undriven nets excluded from IPO operation.
+Info: 1 top-level, potential tri-state net  excluded from IPO operation.
+Info: 1 top-level, potential tri-state net  excluded from IPO operation.
+*info: 2 special nets excluded.
+*info: 1 multi-driver net excluded.
+*info: 245876 no-driver nets excluded.
+** GigaOpt Optimizer WNS Slack 0.000 TNS Slack 0.000 Density 1.75
+**** Begin NDR-Layer Usage Statistics ****
+0 Ndr or Layer constraints added by optimization 
+**** End NDR-Layer Usage Statistics ****
+
+*** Finish pre-CTS Setup Fixing (cpu=0:00:00.1 real=0:00:00.0 mem=3326.9M) ***
+
+End: GigaOpt postEco optimization
+GigaOpt: WNS changes after postEco optimization: -922337203685477.500 -> -922337203685477.500 (bump = 0.0)
+GigaOpt: Skipping nonLegal postEco optimization
+*** Steiner Routed Nets: 1.138%; Threshold: 100; Threshold for Hold: 100
+Start to check current routing status for nets...
+All nets are already routed correctly.
+End to check current routing status for nets (mem=3218.2M)
+No multi-vt cells found. Aborting this optimization step
+
+Active setup views:
+ WORST_CASE
+  Dominating endpoints: 0
+  Dominating TNS: -0.000
+
+Extraction called for design 'AHBLITE_SYS' of instances=12760 and nets=259122 using extraction engine 'preRoute' .
+**WARN: (IMPEXT-3530):	The process node is not set. Use the command setDesignMode -process <process node> prior to extraction for maximum accuracy and optimal automatic threshold setting.
+Type 'man IMPEXT-3530' for more detail.
+PreRoute RC Extraction called for design AHBLITE_SYS.
+RC Extraction called in multi-corner(1) mode.
+RCMode: PreRoute
+      RC Corner Indexes            0   
+Capacitance Scaling Factor   : 1.00000 
+Resistance Scaling Factor    : 1.00000 
+Clock Cap. Scaling Factor    : 1.00000 
+Clock Res. Scaling Factor    : 1.00000 
+Shrink Factor                : 0.90000
+PreRoute extraction is honoring NDR/Shielding/ExtraSpace for clock nets.
+Using capacitance table file ...
+Initializing multi-corner capacitance tables ... 
+Initializing multi-corner resistance tables ...
+Creating RPSQ from WeeR and WRes ...
+PreRoute RC Extraction DONE (CPU Time: 0:00:00.3  Real Time: 0:00:00.0  MEM: 2870.949M)
+Skewing Data Summary (End_of_FINAL)
+--------------------------------------------------
+ Total skewed count:0
+--------------------------------------------------
+[NR-eGR] Detected a user setting of 'setTrialRouteModePrv -handlePreroute true' which was ignored.
+[NR-eGR] honorMsvRouteConstraint: false
+[NR-eGR] honorClockSpecNDR      : 0
+[NR-eGR] minRouteLayer          : 2
+[NR-eGR] maxRouteLayer          : 127
+[NR-eGR] numTracksPerClockWire  : 0
+[NR-eGR] Layer1 has no routable track
+[NR-eGR] Layer2 has single uniform track structure
+[NR-eGR] Layer3 has single uniform track structure
+[NR-eGR] Layer4 has single uniform track structure
+[NR-eGR] Layer5 has single uniform track structure
+[NR-eGR] Layer6 has single uniform track structure
+[NR-eGR] Layer7 has single uniform track structure
+[NR-eGR] Layer8 has single uniform track structure
+[NR-eGR] Layer9 has single uniform track structure
+[NR-eGR] Layer10 has single uniform track structure
+[NR-eGR] Layer11 has single uniform track structure
+[NR-eGR] numRoutingBlks=0 numInstBlks=0 numPGBlocks=26400 numBumpBlks=0 numBoundaryFakeBlks=0
+[NR-eGR] numPreroutedNet = 0  numPreroutedWires = 0
+[NR-eGR] Read numTotalNets=13270  numIgnoredNets=0
+[NR-eGR] ============ Routing rule table ============
+[NR-eGR] Rule id 0. Nets 13270 
+[NR-eGR] id=0  ndrTrackId=0  ndrViaId=-1  extraSpace=0  numShields=0  maxHorDemand=1  maxVerDemand=1
+[NR-eGR] Pitch:  L1=240  L2=400  L3=380  L4=400  L5=380  L6=400  L7=380  L8=400  L9=380  L10=1000  L11=950
+[NR-eGR] ========================================
+[NR-eGR] 
+[NR-eGR] Layer group 1: route 13270 net(s) in layer range [2, 11]
+[NR-eGR] earlyGlobalRoute overflow of layer group 1: 0.00% H + 0.00% V. EstWL: 2.386390e+05um
+[NR-eGR] 
+[NR-eGR] Overflow after earlyGlobalRoute (GR compatible) 0.00% H + 0.00% V
+[NR-eGR] Overflow after earlyGlobalRoute 0.00% H + 0.00% V
+[NR-eGR] End Peak syMemory usage = 2923.6 MB
+[NR-eGR] Early Global Router Kernel+IO runtime : 1.21 seconds
+[hotspot] +------------+---------------+---------------+
+[hotspot] |            |   max hotspot | total hotspot |
+[hotspot] +------------+---------------+---------------+
+[hotspot] | normalized |          0.00 |          0.00 |
+[hotspot] +------------+---------------+---------------+
+Local HotSpot Analysis: normalized max congestion hotspot area = 0.00, normalized total congestion hotspot area = 0.00 (area is in unit of 4 std-cell row bins)
+#################################################################################
+# Design Stage: PreRoute
+# Design Name: AHBLITE_SYS
+# Design Mode: 90nm
+# Analysis Mode: MMMC Non-OCV 
+# Parasitics Mode: No SPEF/RCDB
+# Signoff Settings: SI Off 
+#################################################################################
+Calculate delays in BcWc mode...
+Start delay calculation (fullDC) (4 T). (MEM=2921.61)
+Total number of fetched objects 13245
+AAE_INFO: Total number of nets for which stage creation was skipped for all views 0
+End delay calculation. (MEM=3154.41 CPU=0:00:01.8 REAL=0:00:01.0)
+End delay calculation (fullDC). (MEM=3154.41 CPU=0:00:02.4 REAL=0:00:01.0)
+*** Done Building Timing Graph (cpu=0:00:02.9 real=0:00:01.0 totSessionCpu=1:36:22 mem=3164.4M)
+Reported timing to dir ./timingReports
+**optDesign ... cpu = 0:01:47, real = 0:01:13, mem = 2012.5M, totSessionCpu=1:36:22 **
+
+------------------------------------------------------------
+     optDesign Final Summary                             
+------------------------------------------------------------
+
+Setup views included:
+ WORST_CASE 
+
++--------------------+---------+---------+---------+
+|     Setup mode     |   all   | reg2reg | default |
++--------------------+---------+---------+---------+
+|           WNS (ns):|  0.000  |   N/A   |  0.000  |
+|           TNS (ns):|  0.000  |   N/A   |  0.000  |
+|    Violating Paths:|    0    |   N/A   |    0    |
+|          All Paths:|    0    |   N/A   |    0    |
++--------------------+---------+---------+---------+
+
++----------------+-------------------------------+------------------+
+|                |              Real             |       Total      |
+|    DRVs        +------------------+------------+------------------|
+|                |  Nr nets(terms)  | Worst Vio  |  Nr nets(terms)  |
++----------------+------------------+------------+------------------+
+|   max_cap      |      0 (0)       |   0.000    |      0 (0)       |
+|   max_tran     |      0 (0)       |   0.000    |      0 (0)       |
+|   max_fanout   |      0 (0)       |     0      |      0 (0)       |
+|   max_length   |      0 (0)       |     0      |      0 (0)       |
++----------------+------------------+------------+------------------+
+
+Density: 1.748%
+Routing Overflow: 0.00% H and 0.00% V
+------------------------------------------------------------
+**optDesign ... cpu = 0:01:48, real = 0:01:14, mem = 2029.8M, totSessionCpu=1:36:23 **
+*** Finished optDesign ***
+Removing temporary dont_use automatically set for cells with technology sites with no row.
+innovus 1> 

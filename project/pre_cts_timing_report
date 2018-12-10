@@ -1,0 +1,481 @@
+[NR-eGR] Layer4(Metal4)(V) length: 1.469297e+06um, number of vias: 21520
+[NR-eGR] Layer5(Metal5)(H) length: 8.767388e+05um, number of vias: 1661
+[NR-eGR] Layer6(Metal6)(V) length: 1.452627e+05um, number of vias: 202
+[NR-eGR] Layer7(Metal7)(H) length: 1.561352e+04um, number of vias: 12
+[NR-eGR] Layer8(Metal8)(V) length: 2.707050e+02um, number of vias: 0
+[NR-eGR] Layer9(Metal9)(H) length: 0.000000e+00um, number of vias: 0
+[NR-eGR] Layer10(Metal10)(V) length: 0.000000e+00um, number of vias: 0
+[NR-eGR] Layer11(Metal11)(H) length: 0.000000e+00um, number of vias: 0
+[NR-eGR] Total length: 8.120902e+06um, number of vias: 3298599
+[NR-eGR] --------------------------------------------------------------------------
+[NR-eGR] Total clock nets wire length: 0.000000e+00um 
+[NR-eGR] --------------------------------------------------------------------------
+End of congRepair (cpu=0:00:17.4, real=0:00:17.0)
+*** Finishing placeDesign default flow ***
+***** Total cpu  0:38:18
+***** Total real time  0:14:51
+**placeDesign ... cpu = 0:38:18, real = 0:14:51, mem = 2732.6M **
+
+*** Summary of all messages that are not suppressed in this session:
+Severity  ID               Count  Summary                                  
+WARNING   IMPDC-1629           1  The default delay limit was set to %d. T...
+WARNING   IMPSP-9025           1  No scan chain specified/traced.          
+*** Message Summary: 2 warning(s), 0 error(s)
+
+X Error: BadWindow (invalid Window parameter) 3
+  Major opcode: 18 (X_ChangeProperty)
+  Resource id:  0x1a01b50
+X Error: BadWindow (invalid Window parameter) 3
+  Major opcode: 25 (X_SendEvent)
+  Resource id:  0x1a01b50
+X Error: BadWindow (invalid Window parameter) 3
+  Major opcode: 18 (X_ChangeProperty)
+  Resource id:  0x1a01b65
+X Error: BadWindow (invalid Window parameter) 3
+  Major opcode: 25 (X_SendEvent)
+  Resource id:  0x1a01b65
+X Error: BadWindow (invalid Window parameter) 3
+  Major opcode: 18 (X_ChangeProperty)
+  Resource id:  0x1a01b8b
+X Error: BadWindow (invalid Window parameter) 3
+  Major opcode: 25 (X_SendEvent)
+  Resource id:  0x1a01b8b
+X Error: BadWindow (invalid Window parameter) 3
+  Major opcode: 18 (X_ChangeProperty)
+  Resource id:  0x1a01b8c
+X Error: BadWindow (invalid Window parameter) 3
+  Major opcode: 25 (X_SendEvent)
+  Resource id:  0x1a01b8c
+X Error: BadWindow (invalid Window parameter) 3
+  Major opcode: 18 (X_ChangeProperty)
+  Resource id:  0x1a01bb1
+X Error: BadWindow (invalid Window parameter) 3
+  Major opcode: 25 (X_SendEvent)
+  Resource id:  0x1a01bb1
+X Error: BadWindow (invalid Window parameter) 3
+  Major opcode: 18 (X_ChangeProperty)
+  Resource id:  0x1a01bb2
+X Error: BadWindow (invalid Window parameter) 3
+  Major opcode: 25 (X_SendEvent)
+  Resource id:  0x1a01bb2
+X Error: BadWindow (invalid Window parameter) 3
+  Major opcode: 18 (X_ChangeProperty)
+  Resource id:  0x1a01bbe
+X Error: BadWindow (invalid Window parameter) 3
+  Major opcode: 25 (X_SendEvent)
+  Resource id:  0x1a01bbe
+X Error: BadWindow (invalid Window parameter) 3
+  Major opcode: 18 (X_ChangeProperty)
+  Resource id:  0x1a01be2
+X Error: BadWindow (invalid Window parameter) 3
+  Major opcode: 25 (X_SendEvent)
+  Resource id:  0x1a01be2
+X Error: BadWindow (invalid Window parameter) 3
+  Major opcode: 18 (X_ChangeProperty)
+  Resource id:  0x1a01be3
+X Error: BadWindow (invalid Window parameter) 3
+  Major opcode: 25 (X_SendEvent)
+  Resource id:  0x1a01be3
+X Error: BadWindow (invalid Window parameter) 3
+  Major opcode: 18 (X_ChangeProperty)
+  Resource id:  0x1a01c08
+X Error: BadWindow (invalid Window parameter) 3
+  Major opcode: 25 (X_SendEvent)
+  Resource id:  0x1a01c08
+X Error: BadWindow (invalid Window parameter) 3
+  Major opcode: 18 (X_ChangeProperty)
+  Resource id:  0x1a01c14
+X Error: BadWindow (invalid Window parameter) 3
+  Major opcode: 25 (X_SendEvent)
+  Resource id:  0x1a01c14
+X Error: BadWindow (invalid Window parameter) 3
+  Major opcode: 18 (X_ChangeProperty)
+  Resource id:  0x1a01c34
+X Error: BadWindow (invalid Window parameter) 3
+  Major opcode: 25 (X_SendEvent)
+  Resource id:  0x1a01c34
+X Error: BadWindow (invalid Window parameter) 3
+  Major opcode: 18 (X_ChangeProperty)
+  Resource id:  0x1a01c3a
+X Error: BadWindow (invalid Window parameter) 3
+  Major opcode: 25 (X_SendEvent)
+  Resource id:  0x1a01c3a
+X Error: BadWindow (invalid Window parameter) 3
+  Major opcode: 18 (X_ChangeProperty)
+  Resource id:  0x1a01c45
+X Error: BadWindow (invalid Window parameter) 3
+  Major opcode: 25 (X_SendEvent)
+  Resource id:  0x1a01c45
+X Error: BadWindow (invalid Window parameter) 3
+  Major opcode: 18 (X_ChangeProperty)
+  Resource id:  0x1a01c80
+X Error: BadWindow (invalid Window parameter) 3
+  Major opcode: 25 (X_SendEvent)
+  Resource id:  0x1a01c80
+X Error: BadWindow (invalid Window parameter) 3
+  Major opcode: 18 (X_ChangeProperty)
+  Resource id:  0x1a01ca4
+X Error: BadWindow (invalid Window parameter) 3
+  Major opcode: 25 (X_SendEvent)
+  Resource id:  0x1a01ca4
+X Error: BadWindow (invalid Window parameter) 3
+  Major opcode: 18 (X_ChangeProperty)
+  Resource id:  0x1a01cc9
+X Error: BadWindow (invalid Window parameter) 3
+  Major opcode: 25 (X_SendEvent)
+  Resource id:  0x1a01cc9
+X Error: BadWindow (invalid Window parameter) 3
+  Major opcode: 18 (X_ChangeProperty)
+  Resource id:  0x1a01cd5
+X Error: BadWindow (invalid Window parameter) 3
+  Major opcode: 25 (X_SendEvent)
+  Resource id:  0x1a01cd5
+X Error: BadWindow (invalid Window parameter) 3
+  Major opcode: 18 (X_ChangeProperty)
+  Resource id:  0x1a01ce2
+X Error: BadWindow (invalid Window parameter) 3
+  Major opcode: 25 (X_SendEvent)
+  Resource id:  0x1a01ce2
+X Error: BadWindow (invalid Window parameter) 3
+  Major opcode: 18 (X_ChangeProperty)
+  Resource id:  0x1a01d05
+X Error: BadWindow (invalid Window parameter) 3
+  Major opcode: 25 (X_SendEvent)
+  Resource id:  0x1a01d05
+X Error: BadWindow (invalid Window parameter) 3
+  Major opcode: 18 (X_ChangeProperty)
+  Resource id:  0x1a01d14
+X Error: BadWindow (invalid Window parameter) 3
+  Major opcode: 25 (X_SendEvent)
+  Resource id:  0x1a01d14
+X Error: BadWindow (invalid Window parameter) 3
+  Major opcode: 18 (X_ChangeProperty)
+  Resource id:  0x1a01d39
+X Error: BadWindow (invalid Window parameter) 3
+  Major opcode: 25 (X_SendEvent)
+  Resource id:  0x1a01d39
+X Error: BadWindow (invalid Window parameter) 3
+  Major opcode: 18 (X_ChangeProperty)
+  Resource id:  0x1a01d45
+X Error: BadWindow (invalid Window parameter) 3
+  Major opcode: 25 (X_SendEvent)
+  Resource id:  0x1a01d45
+X Error: BadWindow (invalid Window parameter) 3
+  Major opcode: 18 (X_ChangeProperty)
+  Resource id:  0x1a01d54
+X Error: BadWindow (invalid Window parameter) 3
+  Major opcode: 25 (X_SendEvent)
+  Resource id:  0x1a01d54
+X Error: BadWindow (invalid Window parameter) 3
+  Major opcode: 18 (X_ChangeProperty)
+  Resource id:  0x1a01d77
+X Error: BadWindow (invalid Window parameter) 3
+  Major opcode: 25 (X_SendEvent)
+  Resource id:  0x1a01d77
+X Error: BadWindow (invalid Window parameter) 3
+  Major opcode: 18 (X_ChangeProperty)
+  Resource id:  0x1a01d86
+X Error: BadWindow (invalid Window parameter) 3
+  Major opcode: 25 (X_SendEvent)
+  Resource id:  0x1a01d86
+X Error: BadWindow (invalid Window parameter) 3
+  Major opcode: 18 (X_ChangeProperty)
+  Resource id:  0x1a01dab
+X Error: BadWindow (invalid Window parameter) 3
+  Major opcode: 25 (X_SendEvent)
+  Resource id:  0x1a01dab
+X Error: BadWindow (invalid Window parameter) 3
+  Major opcode: 18 (X_ChangeProperty)
+  Resource id:  0x1a01db7
+X Error: BadWindow (invalid Window parameter) 3
+  Major opcode: 25 (X_SendEvent)
+  Resource id:  0x1a01db7
+X Error: BadWindow (invalid Window parameter) 3
+  Major opcode: 18 (X_ChangeProperty)
+  Resource id:  0x1a01dc2
+X Error: BadWindow (invalid Window parameter) 3
+  Major opcode: 25 (X_SendEvent)
+  Resource id:  0x1a01dc2
+X Error: BadWindow (invalid Window parameter) 3
+  Major opcode: 18 (X_ChangeProperty)
+  Resource id:  0x1a01dd1
+X Error: BadWindow (invalid Window parameter) 3
+  Major opcode: 25 (X_SendEvent)
+  Resource id:  0x1a01dd1
+X Error: BadWindow (invalid Window parameter) 3
+  Major opcode: 18 (X_ChangeProperty)
+  Resource id:  0x1a01df4
+X Error: BadWindow (invalid Window parameter) 3
+  Major opcode: 25 (X_SendEvent)
+  Resource id:  0x1a01df4
+X Error: BadWindow (invalid Window parameter) 3
+  Major opcode: 18 (X_ChangeProperty)
+  Resource id:  0x1a01e01
+X Error: BadWindow (invalid Window parameter) 3
+  Major opcode: 25 (X_SendEvent)
+  Resource id:  0x1a01e01
+X Error: BadWindow (invalid Window parameter) 3
+  Major opcode: 18 (X_ChangeProperty)
+  Resource id:  0x1a01e0d
+X Error: BadWindow (invalid Window parameter) 3
+  Major opcode: 25 (X_SendEvent)
+  Resource id:  0x1a01e0d
+innovus 1> *** Starting placeDesign default flow ***
+*** Start deleteBufferTree ***
+Info: Detect buffers to remove automatically.
+Analyzing netlist ...
+Updating netlist
+
+*summary: 0 instances (buffers/inverters) removed
+*** Finish deleteBufferTree (0:00:14.3) ***
+**INFO: Enable pre-place timing setting for timing analysis
+Set Using Default Delay Limit as 101.
+**WARN: (IMPDC-1629):	The default delay limit was set to 101. This is less than the default of 1000 and may result in inaccurate delay calculation for nets with a fanout higher than the setting.  If needed, the default delay limit may be adjusted by running the command 'set delaycal_use_default_delay_limit'.
+Set Default Net Delay as 0 ps.
+Set Default Net Load as 0 pF. 
+**INFO: Analyzing IO path groups for slack adjustment
+**INFO: Disable pre-place timing setting for timing analysis
+Set Using Default Delay Limit as 1000.
+Set Default Net Delay as 1000 ps.
+Set Default Net Load as 0.5 pF. 
+**INFO: Pre-place timing setting for timing analysis already disabled
+Deleted 0 physical inst  (cell - / prefix -).
+*** Starting "NanoPlace(TM) placement v#10 (mem=2784.9M)" ...
+total jobs 3344
+multi thread init TemplateIndex for each ta. thread num 4
+*** Build Buffered Sizing Timing Model
+(cpu=0:00:01.3 mem=2784.9M) ***
+*** Build Virtual Sizing Timing Model
+(cpu=0:00:01.5 mem=2784.9M) ***
+No user setting net weight.
+Options: timingDriven clkGateAware ignoreScan pinGuide congEffort=auto gpeffort=medium 
+Scan chains were not defined.
+#std cell=254003 (0 fixed + 254003 movable) #block=0 (0 floating + 0 preplaced)
+#ioInst=0 #net=254483 #term=1209088 #term/net=4.75, #fixedIo=0, #floatIo=0, #fixedPin=0, #floatPin=12
+stdCell: 254003 single + 0 double + 0 multi
+Total standard cell length = 708.8656 (mm), area = 1.2122 (mm^2)
+Average module density = 0.696.
+Density for the design = 0.696.
+       = stdcell_area 3544328 sites (1212160 um^2) / alloc_area 5089242 sites (1740521 um^2).
+Pin Density = 0.2376.
+            = total # of pins 1209088 / total area 5089242.
+Enabling multi-CPU acceleration with 4 CPU(s) for placement
+=== lastAutoLevel = 11 
+Clock gating cells determined by native netlist tracing.
+Iteration  1: Total net bbox = 5.509e-06 (2.97e-06 2.54e-06)
+              Est.  stn bbox = 5.594e-06 (3.01e-06 2.58e-06)
+              cpu = 0:00:01.6 real = 0:00:01.0 mem = 2802.7M
+Iteration  2: Total net bbox = 5.509e-06 (2.97e-06 2.54e-06)
+              Est.  stn bbox = 5.594e-06 (3.01e-06 2.58e-06)
+              cpu = 0:00:00.1 real = 0:00:01.0 mem = 2806.6M
+Iteration  3: Total net bbox = 7.435e+03 (3.69e+03 3.75e+03)
+              Est.  stn bbox = 9.868e+03 (4.89e+03 4.97e+03)
+              cpu = 0:00:35.7 real = 0:00:11.0 mem = 2865.8M
+Active setup views:
+    WORST_CASE
+Iteration  4: Total net bbox = 3.215e+06 (1.40e+06 1.81e+06)
+              Est.  stn bbox = 4.788e+06 (2.14e+06 2.64e+06)
+              cpu = 0:02:49 real = 0:00:51.0 mem = 2865.8M
+Iteration  5: Total net bbox = 2.857e+06 (1.42e+06 1.44e+06)
+              Est.  stn bbox = 4.302e+06 (2.15e+06 2.15e+06)
+              cpu = 0:03:19 real = 0:01:00.0 mem = 2865.8M
+Iteration  6: Total net bbox = 3.542e+06 (1.74e+06 1.80e+06)
+              Est.  stn bbox = 5.019e+06 (2.48e+06 2.54e+06)
+              cpu = 0:04:07 real = 0:01:13 mem = 2947.8M
+
+Iteration  7: Total net bbox = 3.918e+06 (2.07e+06 1.85e+06)
+              Est.  stn bbox = 5.408e+06 (2.82e+06 2.59e+06)
+              cpu = 0:00:00.5 real = 0:00:01.0 mem = 2883.8M
+Iteration  8: Total net bbox = 3.918e+06 (2.07e+06 1.85e+06)
+              Est.  stn bbox = 5.408e+06 (2.82e+06 2.59e+06)
+              cpu = 0:01:21 real = 0:00:55.0 mem = 2883.8M
+Iteration  9: Total net bbox = 4.551e+06 (2.35e+06 2.20e+06)
+              Est.  stn bbox = 6.212e+06 (3.19e+06 3.03e+06)
+              cpu = 0:04:32 real = 0:01:28 mem = 3003.1M
+Iteration 10: Total net bbox = 4.551e+06 (2.35e+06 2.20e+06)
+              Est.  stn bbox = 6.212e+06 (3.19e+06 3.03e+06)
+              cpu = 0:01:21 real = 0:00:55.0 mem = 3003.1M
+Iteration 11: Total net bbox = 4.666e+06 (2.42e+06 2.24e+06)
+              Est.  stn bbox = 6.435e+06 (3.31e+06 3.13e+06)
+              cpu = 0:04:28 real = 0:01:26 mem = 3003.1M
+Iteration 12: Total net bbox = 4.666e+06 (2.42e+06 2.24e+06)
+              Est.  stn bbox = 6.435e+06 (3.31e+06 3.13e+06)
+              cpu = 0:01:21 real = 0:00:56.0 mem = 3003.1M
+Iteration 13: Total net bbox = 4.890e+06 (2.54e+06 2.35e+06)
+              Est.  stn bbox = 6.790e+06 (3.49e+06 3.30e+06)
+              cpu = 0:05:25 real = 0:01:44 mem = 3003.1M
+Iteration 14: Total net bbox = 4.890e+06 (2.54e+06 2.35e+06)
+              Est.  stn bbox = 6.790e+06 (3.49e+06 3.30e+06)
+              cpu = 0:00:00.6 real = 0:00:01.0 mem = 3003.1M
+Iteration 15: Total net bbox = 5.195e+06 (2.67e+06 2.52e+06)
+              Est.  stn bbox = 7.091e+06 (3.62e+06 3.47e+06)
+              cpu = 0:06:08 real = 0:01:58 mem = 3003.1M
+Iteration 16: Total net bbox = 5.195e+06 (2.67e+06 2.52e+06)
+              Est.  stn bbox = 7.091e+06 (3.62e+06 3.47e+06)
+              cpu = 0:00:00.6 real = 0:00:00.0 mem = 3003.1M
+Iteration 17: Total net bbox = 5.195e+06 (2.67e+06 2.52e+06)
+              Est.  stn bbox = 7.091e+06 (3.62e+06 3.47e+06)
+              cpu = 0:00:00.6 real = 0:00:01.0 mem = 3003.1M
+*** cost = 5.195e+06 (2.67e+06 2.52e+06) (cpu for global=0:35:55) real=0:12:55***
+Placement multithread real runtime: 0:12:55 with 4 threads.
+Info: 0 clock gating cells identified, 0 (on average) moved 0/8
+Solver runtime cpu: 0:30:35 real: 0:09:10
+Core Placement runtime cpu: 0:31:19 real: 0:09:44
+**WARN: (IMPSP-9025):	No scan chain specified/traced.
+Type 'man IMPSP-9025' for more detail.
+*** Starting refinePlace (1:25:28 mem=3005.1M) ***
+Total net bbox length = 5.195e+06 (2.671e+06 2.523e+06) (ext = 2.759e+04)
+Density distribution unevenness ratio = 3.652%
+Move report: Detail placement moves 254003 insts, mean move: 1.19 um, max move: 46.27 um
+	Max move on inst (uAHB2RAM/g585127): (643.41, 615.14) --> (667.00, 637.83)
+	Runtime: CPU: 0:01:07 REAL: 0:00:41.0 MEM: 2675.2MB
+Summary Report:
+Instances move: 254003 (out of 254003 movable)
+Instances flipped: 0
+Mean displacement: 1.19 um
+Max displacement: 46.27 um (Instance: uAHB2RAM/g585127) (643.414, 615.143) -> (667, 637.83)
+	Length: 4 sites, height: 1 rows, site name: CoreSite, cell type: AND2X1
+Total net bbox length = 5.200e+06 (2.672e+06 2.528e+06) (ext = 2.758e+04)
+Runtime: CPU: 0:01:08 REAL: 0:00:43.0 MEM: 2675.2MB
+*** Finished refinePlace (1:26:35 mem=2675.2M) ***
+*** End of Placement (cpu=0:37:43, real=0:14:07, mem=2649.9M) ***
+default core: bins with density >  0.75 = 15.1 % ( 898 / 5929 )
+Density distribution unevenness ratio = 3.613%
+*** Free Virtual Timing Model ...(mem=2649.9M)
+Starting congestion repair ...
+[NR-eGR] honorMsvRouteConstraint: false
+[NR-eGR] honorClockSpecNDR      : 0
+[NR-eGR] minRouteLayer          : 2
+[NR-eGR] maxRouteLayer          : 127
+[NR-eGR] numTracksPerClockWire  : 0
+[NR-eGR] Layer1 has no routable track
+[NR-eGR] Layer2 has single uniform track structure
+[NR-eGR] Layer3 has single uniform track structure
+[NR-eGR] Layer4 has single uniform track structure
+[NR-eGR] Layer5 has single uniform track structure
+[NR-eGR] Layer6 has single uniform track structure
+[NR-eGR] Layer7 has single uniform track structure
+[NR-eGR] Layer8 has single uniform track structure
+[NR-eGR] Layer9 has single uniform track structure
+[NR-eGR] Layer10 has single uniform track structure
+[NR-eGR] Layer11 has single uniform track structure
+[NR-eGR] numRoutingBlks=0 numInstBlks=0 numPGBlocks=26400 numBumpBlks=0 numBoundaryFakeBlks=0
+[NR-eGR] numPreroutedNet = 0  numPreroutedWires = 0
+[NR-eGR] Read numTotalNets=254481  numIgnoredNets=0
+[NR-eGR] ============ Routing rule table ============
+[NR-eGR] Rule id 0. Nets 254481 
+[NR-eGR] id=0  ndrTrackId=0  ndrViaId=-1  extraSpace=0  numShields=0  maxHorDemand=1  maxVerDemand=1
+[NR-eGR] Pitch:  L1=240  L2=400  L3=380  L4=400  L5=380  L6=400  L7=380  L8=400  L9=380  L10=1000  L11=950
+[NR-eGR] ========================================
+[NR-eGR] 
+[NR-eGR] Layer group 1: route 254481 net(s) in layer range [2, 11]
+[NR-eGR] earlyGlobalRoute overflow of layer group 1: 0.00% H + 0.00% V. EstWL: 7.777631e+06um
+[NR-eGR] 
+[NR-eGR] Overflow after earlyGlobalRoute (GR compatible) 0.00% H + 0.00% V
+[NR-eGR] Overflow after earlyGlobalRoute 0.00% H + 0.00% V
+Local HotSpot Analysis: normalized max congestion hotspot area = 0.00, normalized total congestion hotspot area = 0.00 (area is in unit of 4 std-cell row bins)
+Skipped repairing congestion.
+[NR-eGR] --------------------------------------------------------------------------
+[NR-eGR] Layer1(Metal1)(F) length: 0.000000e+00um, number of vias: 1209074
+[NR-eGR] Layer2(Metal2)(V) length: 2.494896e+06um, number of vias: 1965607
+[NR-eGR] Layer3(Metal3)(H) length: 3.118824e+06um, number of vias: 100523
+[NR-eGR] Layer4(Metal4)(V) length: 1.469297e+06um, number of vias: 21520
+[NR-eGR] Layer5(Metal5)(H) length: 8.767388e+05um, number of vias: 1661
+[NR-eGR] Layer6(Metal6)(V) length: 1.452627e+05um, number of vias: 202
+[NR-eGR] Layer7(Metal7)(H) length: 1.561352e+04um, number of vias: 12
+[NR-eGR] Layer8(Metal8)(V) length: 2.707050e+02um, number of vias: 0
+[NR-eGR] Layer9(Metal9)(H) length: 0.000000e+00um, number of vias: 0
+[NR-eGR] Layer10(Metal10)(V) length: 0.000000e+00um, number of vias: 0
+[NR-eGR] Layer11(Metal11)(H) length: 0.000000e+00um, number of vias: 0
+[NR-eGR] Total length: 8.120902e+06um, number of vias: 3298599
+[NR-eGR] --------------------------------------------------------------------------
+[NR-eGR] Total clock nets wire length: 0.000000e+00um 
+[NR-eGR] --------------------------------------------------------------------------
+End of congRepair (cpu=0:00:17.4, real=0:00:13.0)
+*** Finishing placeDesign default flow ***
+***** Total cpu  0:38:40
+***** Total real time  0:14:59
+**placeDesign ... cpu = 0:38:40, real = 0:14:59, mem = 2826.3M **
+
+*** Summary of all messages that are not suppressed in this session:
+Severity  ID               Count  Summary                                  
+WARNING   IMPDC-1629           1  The default delay limit was set to %d. T...
+WARNING   IMPSP-9025           1  No scan chain specified/traced.          
+*** Message Summary: 2 warning(s), 0 error(s)
+
+innovus 1> Setting timing_disable_library_data_to_data_checks to 'true'.
+Setting timing_disable_user_data_to_data_checks to 'true'.
+Start to check current routing status for nets...
+All nets are already routed correctly.
+End to check current routing status for nets (mem=2898.8M)
+Extraction called for design 'AHBLITE_SYS' of instances=254003 and nets=255974 using extraction engine 'preRoute' .
+**WARN: (IMPEXT-3530):	The process node is not set. Use the command setDesignMode -process <process node> prior to extraction for maximum accuracy and optimal automatic threshold setting.
+Type 'man IMPEXT-3530' for more detail.
+PreRoute RC Extraction called for design AHBLITE_SYS.
+RC Extraction called in multi-corner(1) mode.
+RCMode: PreRoute
+      RC Corner Indexes            0   
+Capacitance Scaling Factor   : 1.00000 
+Resistance Scaling Factor    : 1.00000 
+Clock Cap. Scaling Factor    : 1.00000 
+Clock Res. Scaling Factor    : 1.00000 
+Shrink Factor                : 0.90000
+PreRoute extraction is honoring NDR/Shielding/ExtraSpace for clock nets.
+Using capacitance table file ...
+Updating RC grid for preRoute extraction ...
+Initializing multi-corner capacitance tables ... 
+Initializing multi-corner resistance tables ...
+Creating RPSQ from WeeR and WRes ...
+PreRoute RC Extraction DONE (CPU Time: 0:00:02.7  Real Time: 0:00:03.0  MEM: 2898.793M)
+#################################################################################
+# Design Stage: PreRoute
+# Design Name: AHBLITE_SYS
+# Design Mode: 90nm
+# Analysis Mode: MMMC Non-OCV 
+# Parasitics Mode: No SPEF/RCDB
+# Signoff Settings: SI Off 
+#################################################################################
+Calculate delays in BcWc mode...
+Start delay calculation (fullDC) (4 T). (MEM=2975.64)
+**WARN: (IMPESI-3014):	The RC network is incomplete for net TCK. As a result, a lumped model will be used during delay calculation which may compromise timing accuracy. To resolve this, check parasitics for completeness, re-extraction may be required.
+Total number of fetched objects 254489
+AAE_INFO: Total number of nets for which stage creation was skipped for all views 0
+End delay calculation. (MEM=3238.26 CPU=0:00:37.7 REAL=0:00:10.0)
+End delay calculation (fullDC). (MEM=3134.89 CPU=0:00:50.0 REAL=0:00:17.0)
+*** Done Building Timing Graph (cpu=0:01:02 real=0:00:24.0 totSessionCpu=1:30:09 mem=3144.9M)
+
+------------------------------------------------------------
+          timeDesign Summary                             
+------------------------------------------------------------
+
+Setup views included:
+ WORST_CASE 
+
++--------------------+---------+---------+---------+
+|     Setup mode     |   all   | reg2reg | default |
++--------------------+---------+---------+---------+
+|           WNS (ns):|  0.000  |   N/A   |  0.000  |
+|           TNS (ns):|  0.000  |   N/A   |  0.000  |
+|    Violating Paths:|    0    |   N/A   |    0    |
+|          All Paths:|    0    |   N/A   |    0    |
++--------------------+---------+---------+---------+
+
++----------------+-------------------------------+------------------+
+|                |              Real             |       Total      |
+|    DRVs        +------------------+------------+------------------|
+|                |  Nr nets(terms)  | Worst Vio  |  Nr nets(terms)  |
++----------------+------------------+------------+------------------+
+|   max_cap      |    419 (419)     |   -5.546   |    419 (419)     |
+|   max_tran     |  62922 (413822)  |  -45.082   |  62922 (413823)  |
+|   max_fanout   |      0 (0)       |     0      |      0 (0)       |
+|   max_length   |      0 (0)       |     0      |      0 (0)       |
++----------------+------------------+------------+------------------+
+
+Density: 69.644%
+Routing Overflow: 0.00% H and 0.00% V
+------------------------------------------------------------
+Reported timing to dir timingReports
+Total CPU time: 99.06 sec
+Total Real time: 69.0 sec
+Total Memory Usage: 2922.171875 Mbytes
+innovus 1> 
