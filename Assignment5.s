@@ -1,4 +1,4 @@
-            PRESERVE8
+     PRESERVE8
      THUMB
      AREA     appcode, CODE, READONLY
      EXPORT __main
