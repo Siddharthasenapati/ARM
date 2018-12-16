@@ -9,10 +9,10 @@ __main  FUNCTION
 	      VLDR.F32 S11,=0; x1
 		  VLDR.F32 S12,=0; x2
 		  VLDR.F32 S13,=0; x3
-	      MOV R9 ,#0		
-          MOV R7 ,#0 
-          MOV R12,#0
-start	 ADR.W r1,Branchtable_byte
+		
+           
+
+	 ADR.W r1,Branchtable_byte
 	       MOV r2,#1
 		   TBB[r1,r2]
 NAND_LOGIC      VLDR.F32  S14,=0.6;W1
@@ -99,39 +99,39 @@ output 	 VLDR.F32 S20,=0.5
 		 MOVLS r0 , #0
 		 BL printMsg
 		 
-           ADR.W r8 , Table_Byte		  
-		  TBB [r8 , r9 ]		  		  
-input2    VLDR.F32 s11 , =1 ;X0 DATA
-          VLDR.F32 s12 , =0 ;X1 DATA
-          VLDR.F32 s13 , =1 ;X2 DATA
-          ADD r9 , r9 , #1                  	  
-		  B start
+           		  
+		  		  		  
+
+        
+          
+          	  
+		
 		  
-input3    VLDR.F32 s11 , =1 ;X0 DATA
-          VLDR.F32 s12 , =1 ;X1 DATA
-          VLDR.F32 s13 , =0 ;X2 DATA		  
-		  ADD r9 , r9 , #1                   
-		  B start
+
+          
+         	  
+		               
+	
 		  
-input4    VLDR.F32 s11 , =1 ;X0 DATA
-          VLDR.F32 s12 , =1 ;X1 DATA
-          VLDR.F32 s13 , =1 ;X2 DATA
-		  ADD r9 , r9 , #1                   
-          B start
+
+
+          
+		                   
+     
 			 
-                MOV R0 , R7
-                MOV R7 ,#0	
-                BL Printtable
-				CMP R12 ,#6
-				IT HI
-				BHI stop1
-				ADD R12 ,R12 ,#1
-				B start
+                
+                	
+                
+				
+				
+				
+				
+				
 stop1           B   stop1	
-Table_Byte		  
-    DCB   0		  
-    DCB   ((input3-input2)/2)	
-    DCB   ((input4-input2)/2)	
-    DCB   ((stop-input2)/2)   
-    endfunc
+		  
+   		  
+    	
+    	
+   
+  
       end
