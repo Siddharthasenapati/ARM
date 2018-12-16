@@ -3,7 +3,7 @@
      AREA     appcode, CODE, READONLY
      EXPORT __main
 	 IMPORT printMsg
-     IMPORT Printtable		 
+     		 
 	 ENTRY 
 __main  FUNCTION
 	      VLDR.F32 S11,=0; x1
